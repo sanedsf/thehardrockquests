@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 1
 	filename: "survive"
-	title: "survive"
+	title: "Survive"
 	icon: "ftbdripper:water_bowl"
 	default_quest_shape: "pentagon"
 	default_hide_dependency_lines: false
@@ -37,7 +37,7 @@
 	]
 	quests: [
 		{
-			title: "winter is cold"
+			title: "Winter is cold"
 			icon: "minecraft:blue_ice"
 			x: 0.0d
 			y: -3.5d
@@ -49,7 +49,7 @@
 			tasks: [{
 				id: "1BCBEF0768B6C251"
 				type: "checkmark"
-				title: "cold temperature"
+				title: "Cold temperature"
 			}]
 		}
 		{
@@ -191,11 +191,11 @@
 			}]
 		}
 		{
-			title: "heat source"
+			title: "Heat source"
 			icon: "tfc:firepit"
 			x: 0.0d
 			y: 0.0d
-			description: ["A firepit is good heat source - When you are near; it will warm you"]
+			description: ["A firepit is a good heat source - When you are near; it will warm you"]
 			dependencies: ["2450F1AC75601AC2"]
 			hide: true
 			size: 1.5d
@@ -203,7 +203,7 @@
 			tasks: [{
 				id: "771D39CB46AE089E"
 				type: "checkmark"
-				title: "firepit"
+				title: "Firepit"
 			}]
 		}
 		{
@@ -218,11 +218,11 @@
 			tasks: [{
 				id: "1AB73DE65267D13D"
 				type: "checkmark"
-				title: "lava"
+				title: "Lava"
 			}]
 		}
 		{
-			title: "summer is warm"
+			title: "Summer is warm"
 			icon: "minecraft:sunflower"
 			x: 5.0d
 			y: -3.5d
@@ -234,7 +234,7 @@
 			tasks: [{
 				id: "7980E8FE77DEB410"
 				type: "checkmark"
-				title: "warm"
+				title: "Warm"
 			}]
 		}
 		{
@@ -318,7 +318,7 @@
 			tasks: [{
 				id: "294C8F68F7ADDAAB"
 				type: "checkmark"
-				title: "water is cold"
+				title: "Water is cold"
 			}]
 		}
 		{
@@ -427,7 +427,7 @@
 			}]
 		}
 		{
-			title: "angry animals"
+			title: "Angry animals"
 			icon: "tconstruct:spider_head"
 			x: 8.0d
 			y: -3.0d
@@ -442,11 +442,11 @@
 			tasks: [{
 				id: "413379DB864020A4"
 				type: "checkmark"
-				title: "angry animals"
+				title: "Angry animals"
 			}]
 		}
 		{
-			title: "water"
+			title: "Water"
 			icon: "ftbdripper:water_bowl"
 			x: 2.5d
 			y: -4.5d
@@ -462,11 +462,11 @@
 			tasks: [{
 				id: "1A2D5037B7712713"
 				type: "checkmark"
-				title: "angry animals"
+				title: "Angry animals"
 			}]
 		}
 		{
-			title: "source water"
+			title: "Source of water"
 			icon: "watercondenser:watercondenser"
 			x: 2.5d
 			y: -1.5d
@@ -481,7 +481,7 @@
 			}]
 		}
 		{
-			title: "conduit"
+			title: "Conduit"
 			icon: "tfc:rock/aqueduct/granite"
 			x: 2.5d
 			y: 0.5d
@@ -504,7 +504,7 @@
 			}]
 		}
 		{
-			title: "body higiene"
+			title: "Body hygiene"
 			icon: "supplementaries:soap"
 			x: -3.0d
 			y: -3.0d
@@ -516,7 +516,7 @@
 			tasks: [{
 				id: "5A5F77A05DBAE757"
 				type: "checkmark"
-				title: "angry animals"
+				title: "Angry animals"
 			}]
 		}
 		{
@@ -543,7 +543,7 @@
 				{
 					id: "5645F5442652056A"
 					type: "checkmark"
-					title: "angry animals"
+					title: "Angry animals"
 				}
 				{
 					id: "2C6281C8CD9061D4"
@@ -627,7 +627,7 @@
 			tasks: [{
 				id: "11FB03CEF6F0C249"
 				type: "checkmark"
-				title: "angry animals"
+				title: "Angry animals"
 			}]
 		}
 	]
