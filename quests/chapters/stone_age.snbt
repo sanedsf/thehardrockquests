@@ -329,14 +329,14 @@
 	]
 	quests: [
 		{
-			title: "rocks"
+			title: "Rocks"
 			icon: "tfc:rock/loose/dacite"
 			x: 8.5d
 			y: -2.0d
 			description: [
-				"pick up some rocks and sticks. From them you will create the first tools"
+				"Pick up some rocks and sticks. From them you will create your first tools"
 				"{image:tfc:textures/item/loose_rock/chalk.png width:15 height:15 align:1}"
-				" !!! Dropped items are picked up with the right mouse button or by pressing shift !!!"
+				" !!! Dropped items are picked up with the ''RIGHT Mouse Button'' or by pressing ''SHIFT'' !!!"
 			]
 			dependencies: ["13C6B5603AB4A496"]
 			hide: true
@@ -346,7 +346,7 @@
 				{
 					id: "22E38269D09443A7"
 					type: "item"
-					title: "sticks"
+					title: "Sticks"
 					item: {
 						id: "minecraft:stick"
 						Count: 1b
@@ -362,7 +362,7 @@
 				{
 					id: "3F1CF204B94A1626"
 					type: "item"
-					title: "rocks"
+					title: "Rocks"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -385,7 +385,7 @@
 			x: 9.0d
 			y: -4.0d
 			description: [
-				"right click with a rock in the air will allow you to create tool shapes. see knapping in the TFC guide"
+				"''RIGHT CLICK'' with a rock in the air. That will allow you to create tool shapes. See knapping in the TFC guide"
 				"{image:tfc:textures/item/stone/knife_head.png width:15 height:15 align:1}"
 			]
 			min_required_dependencies: 1
@@ -395,7 +395,7 @@
 			tasks: [{
 				id: "54620D624E0C767B"
 				type: "item"
-				title: "stone knive"
+				title: "Stone knive"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -415,7 +415,7 @@
 			}
 			x: 11.0d
 			y: -2.0d
-			description: ["right click with a rock in the air will allow you to create tool shapes. see knapping in the TFC guide"]
+			description: ["''RIGHT CLICK'' with a rock in the air. That will allow you to create tool shapes. See knapping in the TFC guide"]
 			dependencies: ["4D412159C87AA1A0"]
 			hide: true
 			dependency_requirement: "one_completed"
@@ -423,7 +423,7 @@
 			tasks: [{
 				id: "6006214812E12877"
 				type: "item"
-				title: "stone axe"
+				title: "Stone axe"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -443,7 +443,7 @@
 			}
 			x: 8.5d
 			y: 1.0d
-			description: ["right click with a rock in the air will allow you to create tool shapes. see knapping in the TFC guide"]
+			description: ["''RIGHT CLICK'' with a rock in the air. That will allow you to create tool shapes. See knapping in the TFC guide"]
 			dependencies: ["4D412159C87AA1A0"]
 			hide: true
 			dependency_requirement: "one_completed"
@@ -451,7 +451,7 @@
 			tasks: [{
 				id: "473715A783D4B5A3"
 				type: "item"
-				title: "stone shovel"
+				title: "Stone shovel"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -471,7 +471,7 @@
 			}
 			x: 7.0d
 			y: -4.5d
-			description: ["right click with a rock in the air will allow you to create tool shapes. see knapping in the TFC guide"]
+			description: ["''RIGHT CLICK'' with a rock in the air. That will allow you to create tool shapes. See knapping in the TFC guide"]
 			dependencies: ["4D412159C87AA1A0"]
 			hide: true
 			dependency_requirement: "one_completed"
@@ -479,7 +479,7 @@
 			tasks: [{
 				id: "15FED04A31368FFC"
 				type: "item"
-				title: "stone javelin"
+				title: "Stone javelin"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -499,7 +499,7 @@
 			}
 			x: 7.0d
 			y: 2.0d
-			description: ["right click with a rock in the air will allow you to create tool shapes. see knapping in the TFC guide"]
+			description: ["''RIGHT CLICK'' with a rock in the air. That will allow you to create tool shapes. See knapping in the TFC guide"]
 			dependencies: ["4D412159C87AA1A0"]
 			hide: true
 			dependency_requirement: "one_completed"
@@ -507,7 +507,7 @@
 			tasks: [{
 				id: "2038281730CEC91C"
 				type: "item"
-				title: "stone hoe"
+				title: "Stone hoe"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -520,29 +520,29 @@
 		{
 			x: 10.5d
 			y: -4.0d
-			description: ["use a knife and cut the grass"]
+			description: ["Use a knife and cut the grass"]
 			dependencies: ["0FC34418C3A532C4"]
 			hide: true
 			id: "78276C52FED1FC85"
 			tasks: [{
 				id: "595070A720B04D65"
 				type: "item"
-				title: "straw"
+				title: "Straw"
 				item: "tfc:straw"
 				count: 8L
 			}]
 		}
 		{
-			title: "logs"
+			title: "Logs"
 			icon: "tfc:wood/log/oak"
 			x: 12.5d
 			y: -2.0d
 			description: [
-				"now use axe on tree and cut logs"
+				"Now use axe on tree and cut logs"
 				""
-				"You need axe or you hand broken  and you die !"
+				"You need an axe or your hand will break and you will die!"
 				""
-				"wood can be stacked (shift + right mouse button puts a stack on the ground)"
+				"Wood can be stacked (SHIFT + RIGHT Mouse Button puts a stack on the ground)"
 			]
 			dependencies: ["405C29535CFEC9B8"]
 			hide: true
@@ -550,7 +550,7 @@
 			tasks: [{
 				id: "6F603C737AB90FCA"
 				type: "item"
-				title: "cut logs"
+				title: "Cut logs"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -566,7 +566,7 @@
 			x: 12.0d
 			y: -4.0d
 			description: [
-				"put 1 log and 3 sticks on ground - use ''fire starter'' and burn it"
+				"Put 1 log and 3 sticks on the ground - use ''fire starter'' to burn it"
 				"{image:tfc:textures/item/firepit.png width:20 height:20 align:1}"
 			]
 			dependencies: [
@@ -597,7 +597,7 @@
 			}
 			x: 10.5d
 			y: -0.5d
-			description: ["right click with a rock in the air will allow you to create tool shapes. see knapping in the TFC guide"]
+			description: ["''RIGHT CLICK'' with a rock in the air. That will allow you to create tool shapes. See knapping in the TFC guide"]
 			dependencies: ["4D412159C87AA1A0"]
 			hide: true
 			dependency_requirement: "one_completed"
@@ -605,7 +605,7 @@
 			tasks: [{
 				id: "0D38E8D3AD6B0E4A"
 				type: "item"
-				title: "stone hammer"
+				title: "Stone hammer"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -620,7 +620,7 @@
 			x: 8.5d
 			y: 4.0d
 			description: [
-				"look around - find indicator plants ( in JEI write $indicator)'.  you can dig clay under it"
+				"Look around - Find indicator plants (in JEI write $indicator)'. You can dig clay under them"
 				"{image:tfc:textures/block/plant/athyrium_fern/double.png width:40 height:40 align:1}"
 			]
 			dependencies: ["2DBF3055A06275F6"]
@@ -629,18 +629,18 @@
 			tasks: [{
 				id: "699A5812D980936F"
 				type: "item"
-				title: "clay "
+				title: "Clay"
 				item: "minecraft:clay_ball"
 				count: 16L
 			}]
 		}
 		{
-			title: "everything is here"
+			title: "Everything is here"
 			x: 5.5d
 			y: -2.0d
 			shape: "gear"
-			subtitle: "right click ''Akastic Tome'' and select book - other book - left click  cancel"
-			description: ["everything is here - all the knowledge about the world in which you are supposed to survive, how to do it and what you will encounter in it - read as much as possible and you will not make mistakes - more info webpage - terrafirmacraft.github.io/Field-Guide"]
+			subtitle: "''RIGHT CLICK'' with ''Akashic Tome'' in hand and choose the book you need - LEFT CLICK to cancel and pick a new one"
+			description: ["Everything is here - All the knowledge about the world in which you are supposed to survive, how to do it and what you will encounter in it - Read as much as possible and you will not make mistakes - More info webpage - terrafirmacraft.github.io/Field-Guide"]
 			dependencies: ["43A3F6984C4136E3"]
 			hide: true
 			size: 2.0d
@@ -660,7 +660,7 @@
 		{
 			x: 13.5d
 			y: -4.0d
-			description: ["you get charcoal by burning wood underground - look in JEI how (hold SHIFT on charcoal icon)"]
+			description: ["You get charcoal by burning wood underground - Look in JEI how (hold SHIFT on charcoal icon)"]
 			dependencies: ["0D9AB19AC9858CD5"]
 			hide: true
 			id: "2544BAE1DA34AFA7"
@@ -671,7 +671,7 @@
 			}]
 		}
 		{
-			title: "ceramics"
+			title: "Ceramics"
 			icon: {
 				id: "tfc:ceramic/unfired_vessel"
 				Count: 1b
@@ -684,7 +684,7 @@
 			}
 			x: 9.5d
 			y: 4.0d
-			description: ["use clay balls and craft unfired ceramics"]
+			description: ["Use clay balls and craft unfired ceramics"]
 			dependencies: ["2DB43046BD0FCBD6"]
 			hide: true
 			id: "78C50987CA923CE1"
@@ -790,11 +790,11 @@
 			]
 		}
 		{
-			title: "river and lake"
+			title: "Rivers and lakes"
 			icon: "tfc:deposit/native_silver/shale"
 			x: 10.5d
 			y: 1.0d
-			description: ["you need copper or other metals - start by searching the bottom of the river or lake - you will find a small amount of metals in the gravel - use sluice or gold pan to rinse them - but watch out for piranhas !!! they can eat you"]
+			description: ["You need copper or other metals - Start by searching the bottom of the river or lake - You will find a small amount of metals in the gravel - Use sluice or gold pan to rinse them - But watch out for piranhas !!! They can eat you"]
 			dependencies: ["2DBF3055A06275F6"]
 			hide: true
 			id: "266E2EE93A134FA3"
@@ -824,13 +824,13 @@
 			}
 			x: 11.5d
 			y: 2.5d
-			subtitle: "unlocked first tips"
+			subtitle: "Unlocked first tips"
 			description: [
-				"look around - you may come across metal samples - there may be a larger deposit underground in this place!!!"
-				"mark these places and remember that soon you will be looking for a large deposit of metal in this area"
+				"Look around - You may come across metal samples - There may be a larger deposit underground in this place!!!"
+				"Mark these places and remember that soon you will be looking for a large deposit of metal in this area"
 				""
 				""
-				"biomes with specific metals can be found in the TFC book"
+				"Biomes with specific metals can be found in the TFC book"
 			]
 			dependencies: ["2DBF3055A06275F6"]
 			hide: true
@@ -838,7 +838,7 @@
 			tasks: [{
 				id: "5AC82C7AAA5EF5D0"
 				type: "item"
-				title: "ore nugget"
+				title: "Ore nugget"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -863,10 +863,10 @@
 			x: 10.5d
 			y: 4.0d
 			description: [
-				"to burn the pottery  use Pit Kiln "
-				"-> put unfire ceramics into the hole in the ground (button V)"
-				"-> cover 8x straw and 8x log"
-				"-> set fire (use firestsrter) - when the fire goes out the pottery is ready"
+				"To burn the pottery use Pit Kiln "
+				"-> Put unfire ceramics into the hole in the ground (button V)"
+				"-> Cover with 8x straw and 8x logs"
+				"-> Set fire (using firestsrter) - When the fire goes out the pottery is ready"
 			]
 			dependencies: ["78C50987CA923CE1"]
 			hide: true
@@ -960,7 +960,7 @@
 			]
 		}
 		{
-			title: "pickaxe"
+			title: "Pickaxe"
 			icon: {
 				id: "tfc:metal/pickaxe/copper"
 				Count: 1b
@@ -976,7 +976,7 @@
 			}
 			x: 13.5d
 			y: 2.5d
-			description: ["To make your first tools you will need molds and molten metal. you will do it by placing, for example, a copper sample in a vessel and using a firepit or charcoal forge, you will heat it until the metal is liquid - put mold into liquid metal vessels - each head tool requires 100 units"]
+			description: ["To make your first tools you will need molds and molten metal. You will do it by placing, for example, a copper sample in a vessel and using a firepit or charcoal forge, you will heat it until the metal is liquid - Put the mold into liquid metal vessels - Each head tool requires 100 units"]
 			dependencies: [
 				"68DC32CE4CE4B4F1"
 				"11C2EB0EE6FD6E2D"
@@ -1032,7 +1032,7 @@
 			]
 		}
 		{
-			title: "saw"
+			title: "Saw"
 			icon: {
 				id: "tfc:metal/saw/copper"
 				Count: 1b
@@ -1067,7 +1067,7 @@
 		{
 			x: 17.0d
 			y: 3.0d
-			description: ["kaolinite can only be found in sedimentary rocks deposits (use command in JEI $sedimentary) - find the right biome to excavate and use prospector pick to search deposits kaolinite underground"]
+			description: ["Kaolinite can only be found in sedimentary rocks deposits (use command in JEI $sedimentary) - Find the right biome to excavate and use prospector pick to search for kaolinite deposits underground"]
 			dependencies: ["0CD0D07D71FB22FB"]
 			hide: true
 			id: "650BB600A046C4E9"
@@ -1080,7 +1080,7 @@
 		{
 			x: 17.0d
 			y: 4.0d
-			description: ["Graphite deposits you find only in special rocks -quartzite, schist, gneiss, marble - use prospector pick or look sample"]
+			description: ["Graphite deposits can only be found in special rocks - Quartzite, schist, gneiss, marble - Use prospector pick or look for samples"]
 			dependencies: ["0CD0D07D71FB22FB"]
 			hide: true
 			id: "00773DB20353D622"
@@ -1091,7 +1091,7 @@
 			}]
 		}
 		{
-			title: "prospector pick"
+			title: "Prospector pick"
 			icon: {
 				id: "tfc:metal/propick/copper"
 				Count: 1b
@@ -1107,7 +1107,7 @@
 			}
 			x: 15.0d
 			y: 3.0d
-			description: ["prospector pick will help you search for minerals and metals below the surface"]
+			description: ["Prospector's pick will help you search for minerals and metals below the surface"]
 			dependencies: ["5200C33550CECCAE"]
 			hide: true
 			id: "0CD0D07D71FB22FB"
@@ -1125,11 +1125,11 @@
 			}]
 		}
 		{
-			title: "lumber"
+			title: "Lumber"
 			icon: "tfc:wood/lumber/oak"
 			x: 15.5d
 			y: -1.0d
-			description: ["use the saw to make the first lumber and planks. you already have everything to create a crafting table"]
+			description: ["Use the saw to make the first lumber and planks. You already have everything to create a crafting table"]
 			dependencies: [
 				"5A5F98C8DED74A94"
 				"6FCF5A9819C15FCA"
@@ -1140,7 +1140,7 @@
 				{
 					id: "03B30A9D2B0588E6"
 					type: "item"
-					title: "lumber"
+					title: "Lumber"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -1153,7 +1153,7 @@
 				{
 					id: "379CADC2844CACE9"
 					type: "item"
-					title: "planks"
+					title: "Planks"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -1178,7 +1178,7 @@
 			]
 		}
 		{
-			title: "axe"
+			title: "Axe"
 			icon: {
 				id: "tfc:metal/axe/copper"
 				Count: 1b
@@ -1194,14 +1194,14 @@
 			}
 			x: 13.5d
 			y: 0.0d
-			description: ["you need a better ax - copper or bronze will be a good tool"]
+			description: ["You need a better axe - Copper or bronze will be a good tool head"]
 			dependencies: ["5200C33550CECCAE"]
 			hide: true
 			id: "646CEBB4A7526F5B"
 			tasks: [{
 				id: "1AECEC6E4DCDE1B5"
 				type: "item"
-				title: "axe"
+				title: "Axe"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -1212,11 +1212,11 @@
 			}]
 		}
 		{
-			title: "choping block"
+			title: "Choping block"
 			icon: "choppingblock:chopping_block"
 			x: 14.0d
 			y: -2.0d
-			description: ["put the log and hit it with the axe. now you can carve supports out of logs. supports are used to make lumber and support the ceiling so that it does not collapse (dirt, sand, gravel, stones when you mining)"]
+			description: ["Put the log in and hit it with the axe. Now you can carve supports out of logs. Supports are used to make lumber and support the ceiling so that it does not collapse (dirt, sand, gravel, stones) when mining"]
 			dependencies: [
 				"646CEBB4A7526F5B"
 				"0D9AB19AC9858CD5"
@@ -1232,7 +1232,7 @@
 				{
 					id: "6A41569FCA8EF0BD"
 					type: "item"
-					title: "support"
+					title: "Support"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -1248,7 +1248,7 @@
 			icon: "tfc:rock/anvil/rhyolite"
 			x: 12.0d
 			y: -0.5d
-			description: ["the first anvil will be made of stone - use the pickaxe and dig up the raw stone. put it down and hit it from above with a hammer - yep"]
+			description: ["The first anvil will be made out of stone - use the pickaxe and dig up the raw stone. Put it down and hit it from above with a hammer - YEP"]
 			dependencies: [
 				"30C84DB4AB1BEBDB"
 				"5200C33550CECCAE"
@@ -1258,7 +1258,7 @@
 			tasks: [{
 				id: "71D9EDF080E4110E"
 				type: "item"
-				title: "stone anvil"
+				title: "Stone anvil"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -1269,10 +1269,10 @@
 			}]
 		}
 		{
-			title: "forge charcoal"
+			title: "Forge charcoal"
 			x: 15.5d
 			y: -5.0d
-			description: ["between the solid stone blocks, place 7 charcoals in the hole. use firestarter when creating forge. You can use it for baking and smelting metals on vessels"]
+			description: ["Between the solid stone blocks, place 7 charcoals in the hole. Use firestarter when creating forge. You can use it for baking and smelting metals in vessels"]
 			dependencies: ["2544BAE1DA34AFA7"]
 			hide: true
 			id: "0C34F9F9503F5982"
@@ -1283,11 +1283,11 @@
 			}]
 		}
 		{
-			title: "hunting"
+			title: "Hunting"
 			icon: "tfc:medium_raw_hide"
 			x: 8.0d
 			y: -7.0d
-			description: ["hunt and get animal skins. you will use it to craft leather. STEP 1 - if you already have the skill of woodworking and making barrels, use it to soak hide in limewater. STEP 2 - after the soaked hide you need to clean and scrape it. lay a log of wood crosswise on top of it put soaked hide and use a knife"]
+			description: ["Hunt and get animal skins. You will use it to craft leather. STEP 1 - If you already have the skill of woodworking and making barrels, use it to soak hide in limewater. STEP 2 - After the soaked hide you need to clean and scrape it. Lay a log of wood crosswise on top of it put soaked hide and use a knife"]
 			dependencies: ["2BC58239A8706187"]
 			hide: true
 			id: "11D50560F468218E"
@@ -1295,7 +1295,7 @@
 				{
 					id: "59FE00EED0C20996"
 					type: "item"
-					title: "raw hide"
+					title: "Raw hide"
 					icon: "tfc:medium_raw_hide"
 					item: {
 						id: "itemfilters:tag"
@@ -1308,7 +1308,7 @@
 				{
 					id: "12959004B0C8AF28"
 					type: "item"
-					title: "soaked hide"
+					title: "Soaked hide"
 					icon: "tfc:medium_soaked_hide"
 					item: {
 						id: "itemfilters:tag"
@@ -1321,7 +1321,7 @@
 				{
 					id: "4B00D2BE75CC49E9"
 					type: "item"
-					title: "scraped hide"
+					title: "Scraped hide"
 					icon: "tfc:medium_scraped_hide"
 					item: {
 						id: "itemfilters:tag"
@@ -1334,7 +1334,7 @@
 			]
 		}
 		{
-			title: "barrel"
+			title: "Barrel"
 			icon: "tfc:wood/barrel/oak"
 			x: 16.5d
 			y: -1.5d
@@ -1355,11 +1355,11 @@
 			}]
 		}
 		{
-			title: "etching hide"
+			title: "Etching hide"
 			icon: "kubejs:hide_oiled_m"
 			x: 9.5d
 			y: -8.5d
-			description: ["STEP 3 - reuse the barrel and soak the scraped hide in salt water for half a day. STEP 4 - again soak the prepared hide but in tanned water for next a day. STEP 5 - use mixing bowl and soak the tanned hide in oil."]
+			description: ["STEP 3 - Reuse the barrel and soak the scraped hide in salt water for half a day. STEP 4 - Again soak the prepared hide but in tanned water for another day. STEP 5 - Use mixing bowl and soak the tanned hide in oil."]
 			dependencies: ["11D50560F468218E"]
 			hide: true
 			id: "0AC4A7190BE1B5A6"
@@ -1382,11 +1382,11 @@
 			]
 		}
 		{
-			title: "leather"
+			title: "Leather"
 			icon: "minecraft:leather"
 			x: 11.0d
 			y: -8.5d
-			description: ["oiled leather, scrape and clean, now use the sewing table and cut the hide into leather"]
+			description: ["Oiled leather, scrape it and clean it, now use the sewing table and sew the hide into leather"]
 			dependencies: ["0AC4A7190BE1B5A6"]
 			hide: true
 			id: "05674F981D7FF5AB"
@@ -1412,7 +1412,7 @@
 			]
 		}
 		{
-			title: "bronze"
+			title: "Bronze"
 			icon: {
 				id: "tfc:metal/ingot/bronze"
 				Count: 1b
@@ -1425,7 +1425,7 @@
 			}
 			x: 18.0d
 			y: 1.5d
-			description: ["find deposit tin (cassiterite) to cast bronze"]
+			description: ["Find tin deposit (cassiterite) to cast bronze"]
 			dependencies: [
 				"0CD0D07D71FB22FB"
 				"0A5504B2E07129CE"
@@ -1464,7 +1464,7 @@
 		{
 			x: 18.5d
 			y: 0.0d
-			description: ["you need a harder metal anvil"]
+			description: ["You need a harder metal anvil"]
 			dependencies: ["0CD0D07D71FB22FB"]
 			hide: true
 			id: "78680C14017852A4"
@@ -1486,7 +1486,7 @@
 		{
 			x: 18.5d
 			y: 3.5d
-			description: ["use crucible to cast bars and metal castings faster"]
+			description: ["Use a crucible to cast bars and metal castings faster"]
 			dependencies: [
 				"650BB600A046C4E9"
 				"00773DB20353D622"
@@ -1500,13 +1500,13 @@
 			}]
 		}
 		{
-			title: "mold table"
+			title: "Mold table"
 			icon: "tfcchannelcasting:mold_table"
 			x: 20.0d
 			y: 3.5d
 			description: [
-				"mold table can be used to cast ingots or other metals elements into the mold even faster (the hopper works, which will help with automation)"
-				"attach the channel to the crucible and connect it to the mold table"
+				"The Mold table can be used to cast ingots or other metal elements into the mold even faster (the hopper works, which will help with automation)"
+				"Attach the channel to the crucible and connect it to the mold table"
 			]
 			dependencies: ["0A5504B2E07129CE"]
 			hide: true
@@ -1553,11 +1553,11 @@
 			]
 		}
 		{
-			title: "bloomery"
+			title: "Bloomery"
 			icon: "tfc:bloomery"
 			x: 19.5d
 			y: 1.5d
-			description: ["produce a lot of bronze you need it to build bloomery. is big multiblock structure where iron ores smelting  with coal to make raw bloom, see the guide Terrafirmacraft on how to build and use it"]
+			description: ["Produce a lot of bronze you need it to build bloomery. It is a big multiblock structure where iron ores smelting with coal make raw bloom, see the guide Terrafirmacraft on how to build and use it"]
 			dependencies: ["26515677B3118AEA"]
 			hide: true
 			id: "4CFDC0DB94D96A9D"
@@ -1599,7 +1599,7 @@
 		{
 			x: 24.0d
 			y: 0.0d
-			description: ["only on an anvil with wrought iron you can craft pig iron and steel"]
+			description: ["Only on an anvil from wrought iron you can craft pig iron and steel"]
 			dependencies: ["55CF250954785D87"]
 			hide: true
 			id: "1FEDE6939702C8AB"
@@ -1633,8 +1633,8 @@
 			x: 13.5d
 			y: 4.0d
 			shape: "gear"
-			subtitle: "unlock next stage ''Kinetic Power''"
-			description: ["make an ingot with andesite alloy, it's time for kinetic power"]
+			subtitle: "Unlock next stage ''Kinetic Power''"
+			description: ["Make an ingot with andesite alloy, it's time for kinetic power"]
 			dependencies: ["5200C33550CECCAE"]
 			hide: true
 			size: 1.3d
@@ -1674,7 +1674,7 @@
 		{
 			x: 21.0d
 			y: 0.0d
-			description: ["only on a bronze anvil can you forge wrought iron materials"]
+			description: ["Only on a bronze anvil can you forge wrought iron materials"]
 			dependencies: [
 				"78680C14017852A4"
 				"26515677B3118AEA"
@@ -1697,7 +1697,7 @@
 			}]
 		}
 		{
-			title: "wrought iron"
+			title: "Wrought iron"
 			icon: {
 				id: "tfc:metal/ingot/wrought_iron"
 				Count: 1b
@@ -1751,7 +1751,7 @@
 			icon: "tfc:blast_furnace"
 			x: 24.0d
 			y: 1.5d
-			description: ["Blast Burnace is big multiblock structure and step into the age of steel. building a blast furnace is complicated and without the help of the Terrafirmacraft guide you may not be able to cope. see how to build and use it before you start building"]
+			description: ["Blast Furnace is a big multiblock structure that steps you into the age of steel. Building a blast furnace is complicated and without the help of the Terrafirmacraft guide you may not be able to cope. See how to build and use it before you start building"]
 			dependencies: [
 				"1FEDE6939702C8AB"
 				"4B6471BDD35D04F0"
@@ -1793,7 +1793,7 @@
 			]
 		}
 		{
-			title: "wrought iron sheet"
+			title: "Wrought iron sheet"
 			icon: {
 				id: "tfc:metal/sheet/wrought_iron"
 				Count: 1b
@@ -1806,7 +1806,7 @@
 			}
 			x: 22.5d
 			y: 1.5d
-			description: ["craft double ingot and wrought iron sheet. metallurgy requires patience and long work at the anvil"]
+			description: ["Craft double ingot and wrought iron sheets. Metallurgy requires patience and long work at the anvil"]
 			dependencies: [
 				"18477940F29BD7F5"
 				"55CF250954785D87"
@@ -1846,7 +1846,7 @@
 			]
 		}
 		{
-			title: "steel"
+			title: "Steel"
 			icon: {
 				id: "tfc:metal/ingot/steel"
 				Count: 1b
@@ -1860,8 +1860,8 @@
 			x: 25.5d
 			y: 1.5d
 			shape: "gear"
-			subtitle: "unlock next stage - Steel Age"
-			description: ["in the blast furnace you will produce pig iron which you can refine into high carbon steel and steel.  // Use the Terrafirmacraft guide and read how it's done"]
+			subtitle: "Unlock next stage - Steel Age"
+			description: ["In the blast furnace you will produce pig iron which you can refine into high carbon steel and regular steel.  // Use the Terrafirmacraft guide and read how it's done"]
 			dependencies: [
 				"2222CCF6A21B0E45"
 				"1FEDE6939702C8AB"
@@ -1915,7 +1915,7 @@
 			]
 		}
 		{
-			title: "seared brick"
+			title: "Seared brick"
 			x: 20.0d
 			y: 5.0d
 			shape: "gear"
@@ -1931,7 +1931,7 @@
 			}]
 		}
 		{
-			title: "insulated suit"
+			title: "Insulated suit"
 			icon: {
 				id: "tfcambiental:insulated_leather_tunic"
 				Count: 1b
@@ -1941,7 +1941,7 @@
 			}
 			x: 14.0d
 			y: -8.5d
-			description: ["cold ? quickly put on warm clothes"]
+			description: ["Cold? Quickly put on warm clothes"]
 			dependencies: ["4A3435AC1ED7D541"]
 			hide: true
 			id: "44BB3B13E24927FE"
@@ -1995,7 +1995,7 @@
 		{
 			x: 17.0d
 			y: -5.0d
-			description: ["you will get higher temperatures when you put the bellow next to the forge - blowing on the forge raises the temerature to brilliant white, it will need it for some metals and alloys"]
+			description: ["You will get higher temperatures when you put the bellows next to the forge - Blowing on the forge raises the temerature to brilliant white, it will need to be that high for some metals and alloys to smelt"]
 			dependencies: ["0C34F9F9503F5982"]
 			hide: true
 			id: "076B015F607B70B1"
@@ -2006,11 +2006,11 @@
 			}]
 		}
 		{
-			title: "thatch bed"
+			title: "Thatch bed"
 			icon: "minecraft:white_bed"
 			x: 8.0d
 			y: -8.5d
-			description: ["use lots of raw hide from big animals (cow, bear). put 2x thatch block and large raw hide on top of it"]
+			description: ["Use lots of raw hide from big animals (cow, bear). Put x2 thatch blocks and large raw hide on top of it"]
 			dependencies: ["11D50560F468218E"]
 			hide: true
 			dependency_requirement: "one_started"
@@ -2018,7 +2018,7 @@
 			tasks: [{
 				id: "05A7C487A15B5215"
 				type: "custom"
-				title: "straw bed"
+				title: "Straw bed"
 				icon: "tfc:thatch_bed"
 			}]
 		}
@@ -2028,7 +2028,7 @@
 			x: 8.5d
 			y: 5.5d
 			description: [
-				"The oven can cook different long shelf life food. Only oven baked bread can be made into sandwiches."
+				"The oven can cook different long shelved life food. Only oven baked bread can be made into sandwiches."
 				""
 				"Use a peel to avoid taking damage from the heat."
 			]
@@ -2064,9 +2064,9 @@
 			y: 3.5d
 			description: [
 				"Dried fruit decay slower and can be made into yeast starter. It can dry straw for brown compost too."
-				"- drying mat create from fruit leaf find first fruit tree and cute leaf knife"
+				"- Drying mat created from fruit leaf. Find a fruit tree and cut the leaves with a knife"
 				""
-				"=tip=  by cutting a branch from a fruit tree with axe you will get a sapling"
+				"=TIP=  By cutting a branch from a fruit tree with axe you will get a sapling"
 			]
 			dependencies: ["73296BC5B8AD845D"]
 			hide: true
@@ -2081,7 +2081,7 @@
 			title: "Yeast Starter"
 			x: 5.5d
 			y: 3.5d
-			description: ["New yeast starter can be made with dried fruit with water. You can fermant more with grain flour after your first initial batch."]
+			description: ["New yeast starter can be made with dried fruit and water. You can ferment more with grain flour after your first initial batch."]
 			dependencies: ["256F7DF63B14376E"]
 			hide: true
 			id: "1B18952863938752"
@@ -2136,7 +2136,7 @@
 			x: 5.0d
 			y: 7.0d
 			description: [
-				"The cellar is a multiblock for storing food. Certain food can be put inside Food Shelves or Hangers to preserve way longer, better than vessels. Cheese wheels can be aged inside the cellar."
+				"The cellar is a multiblock for storing food. Certain types of food can be put inside Food Shelves or Hangers to preserve way longer, better than vessels. Cheese wheels can be aged inside the cellar."
 				"Look Terrafirmacraft Firmalife guide"
 			]
 			dependencies: ["4285296DE20480FA"]
@@ -2159,7 +2159,7 @@
 			title: "Herbs and Spices"
 			x: 6.5d
 			y: 10.0d
-			description: ["Herbs and species are grown from seed balls. Basil, cilantro and other herbs currently with no use will slowly generate from thrown seed ball."]
+			description: ["Herbs and spices are grown from seed balls. Basil, cilantro and other herbs currently with no use will slowly generate from thrown seed ball."]
 			dependencies: ["35A0FD7BE9CC7EFF"]
 			hide: true
 			id: "7C3BCA672F1D2317"
@@ -2280,10 +2280,10 @@
 			y: 5.5d
 			shape: "circle"
 			description: [
-				"Soup, salad - more  good foods"
-				"- place the pot on the firepit"
+				"Soup, salad - more good foods"
+				"- Place the pot on the firepit"
 				"And you will be able to cook nutritious dishes to your heart's content"
-				"- shift and right click with a bowl in hand will open the salad making gui"
+				"- SHIFT and RIGHT CLICK with a bowl in hand will open the salad making gui"
 			]
 			dependencies: ["52D289D761CD3327"]
 			hide: true
@@ -2386,7 +2386,7 @@
 		{
 			x: 26.0d
 			y: 0.0d
-			description: ["only on an anvil with wrought iron you can craft pig iron and steel"]
+			description: ["Only on an anvil with wrought iron you can craft pig iron and steel"]
 			dependencies: ["2C1F40C6E45C5388"]
 			hide: true
 			id: "2DC7464E06328310"
@@ -2421,7 +2421,7 @@
 			}
 			x: 19.5d
 			y: -1.5d
-			description: ["of copper you will make your first armor for protection"]
+			description: ["Copper will be your first armor for protection"]
 			dependencies: ["78680C14017852A4"]
 			hide: true
 			id: "1B2D76709D5282BA"
@@ -2478,7 +2478,7 @@
 			}
 			x: 21.0d
 			y: -1.5d
-			description: ["bronze is a harder material and more durable items"]
+			description: ["Bronze is a harder material for more durable items"]
 			dependencies: ["55CF250954785D87"]
 			hide: true
 			id: "46B21F5A218AF0B6"
@@ -2535,7 +2535,7 @@
 			}
 			x: 23.0d
 			y: -1.5d
-			description: ["cheap crafting and durable Iron tools and items"]
+			description: ["Cheap crafting and durable Iron tools and items"]
 			dependencies: ["1FEDE6939702C8AB"]
 			hide: true
 			id: "4C5E4EC4557B273F"
@@ -2592,7 +2592,7 @@
 			}
 			x: 25.0d
 			y: -1.5d
-			description: ["steel is the best quality to strength ratio"]
+			description: ["Steel is the best quality to strength ratio"]
 			dependencies: ["2DC7464E06328310"]
 			hide: true
 			id: "0D77D1891FB8D2C8"
@@ -2649,7 +2649,7 @@
 			}
 			x: 15.0d
 			y: 5.0d
-			description: ["more precise and useful search tool"]
+			description: ["More precise and useful search tool"]
 			dependencies: ["0CD0D07D71FB22FB"]
 			hide: true
 			id: "2EA7125A4086E171"
@@ -2693,7 +2693,7 @@
 			]
 		}
 		{
-			title: "bread"
+			title: "Bread"
 			icon: {
 				id: "tfc:food/wheat_bread"
 				Count: 1b
@@ -2706,7 +2706,7 @@
 			}
 			x: 8.5d
 			y: 7.0d
-			description: ["delicious and fragrant bread what do you say"]
+			description: ["Delicious and fragrant bread, what do you say"]
 			dependencies: ["7C3122B497816D3A"]
 			hide: true
 			id: "333CDC2BBF41A474"
@@ -2737,8 +2737,8 @@
 			x: 27.5d
 			y: 0.0d
 			description: [
-				"black is black"
-				"new items, armors, tools"
+				"Black is black"
+				"New items, armors, tools"
 			]
 			dependencies: ["2DC7464E06328310"]
 			hide: true
@@ -2771,7 +2771,7 @@
 			}
 			x: 29.0d
 			y: 0.0d
-			description: ["blue is better"]
+			description: ["Blue is better"]
 			dependencies: ["78B1F97CEB7AAD71"]
 			hide: true
 			id: "29C25FA36FA95BDB"
@@ -2804,8 +2804,8 @@
 			x: 30.5d
 			y: 0.0d
 			description: [
-				"red anvil produces amazing items "
-				"extremaly useful items, armors"
+				"Red anvil produces amazing items "
+				"Extremaly useful items, armors"
 			]
 			dependencies: ["2DC7464E06328310"]
 			hide: true
@@ -2836,11 +2836,11 @@
 			}]
 		}
 		{
-			title: "tallow"
+			title: "Tallow"
 			icon: "tfc:blubber"
 			x: 9.0d
 			y: -6.0d
-			description: ["you will definitely need an animal blubber ora roten flesh to craft, for example, lanterns"]
+			description: ["You will definitely need an animal bladder or rotten flesh to craft, for example, lanterns"]
 			dependencies: ["2BC58239A8706187"]
 			hide: true
 			id: "7DE2F9F13666E668"
@@ -2851,7 +2851,7 @@
 			}]
 		}
 		{
-			title: "lantern"
+			title: "Lantern"
 			icon: {
 				id: "tfc:metal/lamp/bronze"
 				Count: 1b
@@ -2865,8 +2865,8 @@
 			x: 10.5d
 			y: -6.5d
 			description: [
-				"you need to liquid fuels the lanterns with tallow or olive water. "
-				"it can also be turned on and off to reduce fuel consumption"
+				"You need liquid fuels for the lanterns - Tallow or olive water. "
+				"It can also be turned on and off to reduce fuel consumption"
 			]
 			dependencies: ["7DE2F9F13666E668"]
 			hide: true
@@ -2885,11 +2885,11 @@
 			}]
 		}
 		{
-			title: "cast iron grill"
+			title: "Cast iron grill"
 			icon: "castirongrill:cast_iron_grill_firepit"
 			x: 11.5d
 			y: -5.5d
-			description: ["cast Iron grill can be used on a campfire to make it easier to produce and prepare, for example, food"]
+			description: ["Cast Iron grill can be used on a campfire to make it easier to produce and prepare, for example, food"]
 			dependencies: ["037F184C26A10FC1"]
 			hide: true
 			id: "3799FC2F8A137AFC"
@@ -2937,7 +2937,7 @@
 			]
 		}
 		{
-			title: "livestock"
+			title: "Livestock"
 			icon: {
 				id: "butchersdelight:deadpig"
 				Count: 1b
@@ -2951,7 +2951,7 @@
 			x: 2.5d
 			y: 2.0d
 			description: [
-				"When you now have grains and seeds you can domesticate farm animals (cows, sheep, pigs, chickens, sheeps, alpacas, musk, goat, yaks, ducks, quails, horses, mules, donkeys).  you can get more meat in the butchery system or other animal materials (wool, eggs, milk)"
+				"When you now have grains and seeds you can domesticate farm animals (cows, sheep, pigs, chickens, sheeps, alpacas, musk, goat, yaks, ducks, quails, horses, mules, donkeys).  You can get more meat in the butchery system or other animal materials (wool, eggs, milk)"
 				""
 				""
 			]
@@ -2964,7 +2964,7 @@
 			}]
 		}
 		{
-			title: "more meats"
+			title: "More meats"
 			icon: {
 				id: "butchersdelight:legcow"
 				Count: 1b
@@ -2978,9 +2978,9 @@
 			x: 1.0d
 			y: 1.0d
 			description: [
-				"create supplies and new types of tasty food"
+				"Create supplies and new types of tasty food"
 				""
-				"dead animal's body on the hook and then use the cleaver to cut the meat more efficiently"
+				"Hang dead animal bodies on the hook and then use the cleaver to cut the meat more efficiently"
 			]
 			dependencies: ["08C3D1D2B28A8D8B"]
 			hide: true
@@ -2989,7 +2989,7 @@
 				{
 					id: "676E2911F2CFA0C2"
 					type: "item"
-					title: "raw hide"
+					title: "Raw hide"
 					icon: {
 						id: "butchersdelight:porkribs"
 						Count: 1b
@@ -3057,7 +3057,7 @@
 		{
 			x: 12.0d
 			y: 1.5d
-			description: ["sluice is a device that will slowly allow you to wash out samples metal from gravel deposit obtained from the bottom of a lake or river"]
+			description: ["Sluice is a device that will slowly allow you to wash out sample metals from gravel deposits obtained from the bottom of a lake or river"]
 			dependencies: ["266E2EE93A134FA3"]
 			hide: true
 			id: "11C2EB0EE6FD6E2D"
@@ -3068,11 +3068,11 @@
 			}]
 		}
 		{
-			title: "torch"
+			title: "Cast iron grill"
 			icon: "tfc:torch"
 			x: 13.0d
 			y: -5.5d
-			description: ["you can create torches by putting sticks into a firepit"]
+			description: ["You can create torches by putting sticks into a firepit"]
 			dependencies: ["037F184C26A10FC1"]
 			hide: true
 			id: "1F6624B6C5A9FB61"
@@ -3083,12 +3083,12 @@
 			}]
 		}
 		{
-			title: "wild crops"
+			title: "Wild crops"
 			icon: "tfc:wild_crop/oat"
 			x: 5.5d
 			y: 2.0d
 			description: [
-				"there may be wild crops around you Take a look around Gather seedlings and create your own crops"
+				"There may be wild crops around you. Take a look around. Gather seedlings and create your own crops"
 				""
 				"{image:tfc:textures/block/crop/wheat_6.png width:20 height:20 align:1}"
 			]
@@ -3101,12 +3101,12 @@
 			}]
 		}
 		{
-			title: "fish"
+			title: "Fish"
 			x: 5.5d
 			y: -4.5d
 			description: [
 				""
-				"dive into a lake or river and with your skills and stone tools u Hunt at least one fish it will help you survive in the beginning"
+				"Dive into a lake or river and with your skills and stone tools hunt at least one fish. It will help you survive in the beginning"
 			]
 			dependencies: ["2BC58239A8706187"]
 			hide: true
@@ -3131,12 +3131,12 @@
 			}]
 		}
 		{
-			title: "drinking water"
+			title: "Drinking water"
 			icon: "ftbdripper:water_bowl"
 			x: 10.0d
 			y: 5.5d
 			shape: "circle"
-			description: ["jug is the first vessel in which you can carry water and use it when you are thirsty"]
+			description: ["Jug is the first vessel in which you can carry water and use it when you are thirsty"]
 			dependencies: ["52D289D761CD3327"]
 			hide: true
 			id: "6008C5503E02A997"
@@ -3162,7 +3162,7 @@
 			}
 			x: 5.5d
 			y: 0.5d
-			description: ["Use the shears and cut leaves - next put the leaves on the ground and use crook on the leaves and -  can get a sapling or a worm - Your first food"]
+			description: ["Use the shears and cut leaves - Next put the leaves on the ground and use a crook on the leaves - This will get you a sapling or a worm - Your first food"]
 			min_required_dependencies: 1
 			dependencies: ["4D412159C87AA1A0"]
 			hide: true
@@ -3197,11 +3197,11 @@
 			x: 4.0d
 			y: 0.0d
 			description: [
-				"you can bake the worm and eat it. You can also use it on leaves on a tree to turn them into a infesting leaves"
+				"You can bake the Silkworm and eat it. You can also use it on leaves on a tree to turn them into a infesting leaves"
 				""
-				"when infested leaves becomes infused leaves - Destroy it again with crook and you'll get a string"
+				"When infested leaves becomes infused leaves - Destroy it again with crook and you'll get a string"
 				""
-				"You can also use the SilkWorm as fishing bait"
+				"You can also use the Silkworm as fishing bait"
 			]
 			dependencies: ["3E0D8D2554B35DAA"]
 			hide: true
@@ -3220,10 +3220,10 @@
 			]
 		}
 		{
-			title: "sieve"
+			title: "Sieve"
 			x: 15.5d
 			y: -2.5d
-			description: ["sift the dirt in the sieve and you will get seeds or other interesting things"]
+			description: ["Sift the dirt in the sieve and you will get seeds or other interesting things"]
 			dependencies: ["1124CE75F3E2D185"]
 			hide: true
 			id: "0781F58F999FC861"
@@ -3234,11 +3234,11 @@
 			}]
 		}
 		{
-			title: "seeds"
+			title: "Seeds"
 			icon: "immersiveengineering:seed"
 			x: 16.5d
 			y: -3.0d
-			description: ["sow new seeds and grow new crops"]
+			description: ["Sow new seeds and grow new crops"]
 			dependencies: ["0781F58F999FC861"]
 			hide: true
 			id: "39820BDE846B569C"
@@ -3266,12 +3266,12 @@
 			]
 		}
 		{
-			title: "fishing"
+			title: "Fishing"
 			x: 4.0d
 			y: -3.5d
 			description: [
 				""
-				"Use a fishing rod to fish more efficiently and be able to catch big fish"
+				"Use a fishing rod to fish more efficiently and be able to catch bigger fish"
 			]
 			dependencies: ["3E27CBA24A6D9B18"]
 			hide: true
@@ -3290,7 +3290,7 @@
 			}]
 		}
 		{
-			title: "fishing"
+			title: "Fishing"
 			icon: {
 				id: "waterstrainer:strainer_survivalist"
 				Count: 1b
@@ -3302,7 +3302,7 @@
 			y: -5.0d
 			description: [
 				""
-				"water Strainer means faster and better extraction of resources from the waters"
+				"Water Strainer means faster and better extraction of resources from the water"
 			]
 			dependencies: ["3E27CBA24A6D9B18"]
 			hide: true
@@ -3338,7 +3338,7 @@
 			]
 		}
 		{
-			title: "farm"
+			title: "Farm"
 			icon: {
 				id: "tfc:food/wheat"
 				Count: 1b
@@ -3354,7 +3354,7 @@
 			description: [
 				"Create farms with new wild seeds and stock up on food for winter"
 				"{image:tfc:textures/block/crop/wheat_6.png width:20 height:20 align:1}"
-				"Use fertilizers (compost, bone meal, saltpeter, guano, wood ash, sylvite - each adds a different factor -phosphorus -potassium -nitrogen) to properly Plants can grow"
+				"Use fertilizers (compost, bone meal, saltpeter, guano, wood ash, sylvite - each adds a different factor -phosphorus -potassium -nitrogen) to properly allow Plants to grow"
 			]
 			dependencies: ["1B85F7093AC663D7"]
 			hide: true
@@ -3387,7 +3387,7 @@
 			]
 		}
 		{
-			title: "purified water"
+			title: "Purified water"
 			icon: "ftbdripper:water_bowl"
 			x: 14.0d
 			y: -6.5d
@@ -3402,10 +3402,10 @@
 			}]
 		}
 		{
-			title: "tool rack"
+			title: "Tool rack"
 			x: 14.5d
 			y: 0.5d
-			description: ["Thanks to toolrack, we can hang and store our tool"]
+			description: ["Thanks to toolrack, we can hang and store our tools"]
 			dependencies: ["1124CE75F3E2D185"]
 			hide: true
 			id: "32DCF95585240FAB"
@@ -3427,7 +3427,7 @@
 			x: 1.0d
 			y: 2.0d
 			description: [
-				"you will get milk after domestication and proper feeding of animals"
+				"You will get milk after domestication and proper feeding of animals"
 				""
 			]
 			dependencies: ["08C3D1D2B28A8D8B"]
@@ -3452,7 +3452,7 @@
 			]
 		}
 		{
-			title: "eggs"
+			title: "Eggs"
 			icon: {
 				id: "minecraft:egg"
 				Count: 1b
@@ -3468,7 +3468,7 @@
 			x: 1.0d
 			y: 3.0d
 			description: [
-				"your birds must have nest boxs to get eggs "
+				"Your birds must have nest boxes to make eggs"
 				""
 			]
 			dependencies: ["08C3D1D2B28A8D8B"]
@@ -3499,12 +3499,12 @@
 			]
 		}
 		{
-			title: "wool"
+			title: "Wool"
 			icon: "tfc:wool"
 			x: 1.0d
 			y: 4.0d
 			description: [
-				"Wooly Animals take wool after familiarity and using shears, they will give wool"
+				"Wooly Animalswill only give wool after gaining familiarity and using shears on them."
 				""
 				"Thanks to the spindle you will make woolen strings"
 			]
@@ -3548,12 +3548,12 @@
 			]
 		}
 		{
-			title: "horse riding"
+			title: "Horse riding"
 			icon: "minecraft:saddle"
 			x: 1.0d
 			y: 0.0d
 			description: [
-				"Equids are mammals that can be ridden and used to transport materials once tamed (this includes mules, donkeys and horses)"
+				"Squids are mammals that can be ridden and used to transport materials once tamed (this includes mules, donkeys and horses)"
 				""
 			]
 			dependencies: ["08C3D1D2B28A8D8B"]
@@ -3566,12 +3566,12 @@
 			}]
 		}
 		{
-			title: "first materials"
+			title: "First materials"
 			icon: "tfc:mud_bricks/silt"
 			x: 9.5d
 			y: 2.5d
 			description: [
-				"mudbrick is the first and fastest building material"
+				"Mudbrick are the first and fastest building material"
 				""
 			]
 			dependencies: ["2DBF3055A06275F6"]
@@ -3580,13 +3580,13 @@
 			tasks: [{
 				id: "690A8F1033C8A0FB"
 				type: "item"
-				title: "mud bricks"
+				title: "Mud bricks"
 				icon: "tfc:mud_bricks/silt"
 				item: "tfc:mud_bricks/silt"
 			}]
 		}
 		{
-			title: "sandwiches"
+			title: "Sandwiches"
 			icon: {
 				id: "tfc:food/barley_bread_sandwich"
 				Count: 1b
@@ -3611,7 +3611,7 @@
 			}
 			x: 8.5d
 			y: 8.5d
-			description: ["Sandwiches are a meal allowing the combination of Bread items and three sandwich foods, which can be any combination of Vegetables, Cooked Meats, and Cheeses."]
+			description: ["Sandwiches are a meal allowing the combination of Bread items with three sandwich foods, which can be any combination of Vegetables, Cooked Meats, and Cheeses."]
 			dependencies: ["333CDC2BBF41A474"]
 			hide: true
 			id: "0805DD141158FB98"
@@ -3629,12 +3629,12 @@
 			}]
 		}
 		{
-			title: "support beams"
+			title: "Support beams"
 			icon: "tfc:wood/support/oak"
 			x: 14.0d
 			y: -3.0d
 			description: [
-				"when digging and extracting underground minerals, it will be important to support the ceilings with beams"
+				"When digging and extracting underground minerals, it will be important to support the ceilings with beams"
 				""
 				"Support Beams can be used to prevent collapses from occurring."
 			]
@@ -3656,11 +3656,11 @@
 			}]
 		}
 		{
-			title: "jute"
+			title: "Jute"
 			icon: "tfc:jute_fiber"
 			x: 17.5d
 			y: -3.5d
-			description: ["from plant fibers you will create lead, first burlap cloth and a rope"]
+			description: ["From plant fibers you will create leads, your first burlap cloth and a rope"]
 			dependencies: ["39820BDE846B569C"]
 			hide: true
 			id: "15D5D5E7100231B9"
@@ -3683,11 +3683,11 @@
 			]
 		}
 		{
-			title: "baloon"
+			title: "Baloon"
 			icon: "simple_hot_air_balloons:white_hot_air_balloon_item"
 			x: 18.5d
 			y: -4.0d
-			description: ["the balloon will allow you to travel more safely and see more details of your world from above"]
+			description: ["The balloon will allow you to travel more safely and see more details of your world from above"]
 			dependencies: ["15D5D5E7100231B9"]
 			hide: true
 			id: "567EFA9E62DF19A3"
@@ -3698,15 +3698,15 @@
 			}]
 		}
 		{
-			title: "wolf spawn egg"
+			title: "Wolf spawn egg"
 			icon: "minecraft:wolf_spawn_egg"
 			x: 17.0d
 			y: -0.5d
 			description: [
-				"use a barrel - take normal egg "
-				"and tallow to create wolf egg"
+				"Use a barrel - Take normal egg "
+				"and tallow to create a wolf egg"
 				"{image:pneumaticcraft:textures/item/manual.png width:15 height:15 align:1}"
-				"this pet is your companion defender helper"
+				"This pet is your companion defender/helper"
 			]
 			dependencies: ["39F9D2F52D44E27C"]
 			hide: true
@@ -3718,15 +3718,15 @@
 			}]
 		}
 		{
-			title: "tamed dog"
+			title: "Tamed dog"
 			icon: "doggytalents:throw_bone"
 			x: 17.0d
 			y: 0.5d
 			description: [
-				"tamed you wolf to farm dog"
-				"use treats to conver him on trained dog"
+				"Tamed your wolf to a farm dog"
+				"Use treats to convert him to a trained dog"
 				"{image:pneumaticcraft:textures/item/manual.png width:15 height:15 align:1}"
-				"when you use a stick on a trained dog, you can train it and give it a job"
+				"When you use a stick on a trained dog, you can train it and give it a job"
 			]
 			dependencies: ["105D88910A61B747"]
 			hide: true
@@ -3745,15 +3745,15 @@
 			]
 		}
 		{
-			title: "farmers delight"
+			title: "Farmers delight"
 			icon: "farmersdelight:cooking_pot"
 			x: 10.5d
 			y: 7.0d
 			shape: "circle"
 			description: [
-				"create a metal cooking pot -  thanks to which you will create new richer dishes."
+				"Create a metal cooking pot - Thanks to which you will create new richer dishes."
 				""
-				"to cook on them, you must place them on a heat source over a firepit or Oven"
+				"To cook on them, you must place them on a heat source over a firepit or Oven"
 			]
 			dependencies: ["47E0A369AD9607DF"]
 			hide: true
@@ -3778,17 +3778,17 @@
 			]
 		}
 		{
-			title: "coffee and tea"
+			title: "Coffee and tea"
 			icon: "farmersrespite:coffee"
 			x: 12.0d
 			y: 7.0d
 			shape: "circle"
 			description: [
-				"coffee bushes can be found in the Nether in basalt biomes"
+				"Coffee bushes can be found in the Nether in basalt biomes"
 				""
-				"by sifting the dirt you can find tea seeds. can sit near a water source to collect tea leaves after some time. The longer the tea bush grows, the more you can pick other varieties (black tea)"
+				"By sifting the dirt you can find tea seeds. You can also sit near a water source to collect tea leaves after some time. The longer the tea bush grows, the more you can pick other varieties (black tea)"
 				""
-				"using the kettle, you can boil coffee and tea in various types"
+				"Using the kettle, you can boil coffee and tea in various types"
 			]
 			dependencies: ["47E0A369AD9607DF"]
 			hide: true
@@ -3817,14 +3817,14 @@
 			]
 		}
 		{
-			title: "sleeping bad"
+			title: "Sleeping bad"
 			icon: "travelersbackpack:red_sleeping_bag"
 			x: 3.0d
 			y: -1.0d
 			description: [
 				"You can make cloth from strings, and cloth is easy to make a sleeping bag."
 				""
-				"will prove to be indispensable windows in expeditions and the need to sleep outside your home"
+				"It will prove to be indispensable in expeditions and when you need to sleep outside your home"
 			]
 			dependencies: ["23EAB0B60EE1697D"]
 			hide: true

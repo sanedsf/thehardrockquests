@@ -13,7 +13,7 @@
 			x: 6.5d
 			y: 0.0d
 			shape: "gear"
-			description: ["you will build the first machines driven by kinetic force - mill wheel or wind farm will help you drive any machine - you don't know how to do it - in JEI hold the W button to see the animation"]
+			description: ["You need to build the first machines driven by kinetic force - The mill wheel or the wind farm will help you with any machine - If you don't know how to do it - In JEI hold the W button to see the animation"]
 			dependencies: [
 				"751EF81B24F71A37"
 				"26515677B3118AEA"
@@ -24,11 +24,11 @@
 			tasks: [{
 				id: "5CD65A0527BA7A79"
 				type: "checkmark"
-				title: "create"
+				title: "Create"
 			}]
 		}
 		{
-			title: "andesite"
+			title: "Andesite"
 			icon: {
 				id: "create:andesite_alloy"
 				Count: 1b
@@ -41,7 +41,7 @@
 			}
 			x: 9.5d
 			y: 0.0d
-			description: ["to build your first kinetic power you will need a few basic elements"]
+			description: ["To build your first kinetic power you will need a few basic elements"]
 			dependencies: ["1EA8FFB7D51E2A12"]
 			id: "7EE3BBD82AFCA050"
 			tasks: [
@@ -83,7 +83,7 @@
 		{
 			x: 17.0d
 			y: -1.5d
-			description: ["the saw produces more products of production"]
+			description: ["The saw produces more resources for production"]
 			dependencies: ["5C9887575E36C258"]
 			hide: true
 			id: "5C608965BCE0B458"
@@ -94,13 +94,13 @@
 			}]
 		}
 		{
-			title: "driving wheels"
+			title: "Driving wheels"
 			icon: "create:water_wheel"
 			x: 13.5d
 			y: 0.0d
 			description: [
-				"-> water mill is the simplest element that you can feed with flowing water. use it to drive kinetic machines from the ''create'' mod"
-				"-> windmill boaring works with frames (min 8). it is stronger than a water mill but harder to build (press W on the windmill icon and see the animations)"
+				"-> Water mill is the simplest element that you can feed with flowing water. Use it to drive kinetic machines from the ''Create'' mod"
+				"-> Windmill works with frames (min 8). It is stronger than a water mill but harder to build (press W on the windmill icon and see the animations)"
 			]
 			dependencies: ["7EE3BBD82AFCA050"]
 			hide: true
@@ -127,7 +127,7 @@
 		{
 			x: 17.0d
 			y: 0.0d
-			description: ["strong mechanical press !!!"]
+			description: ["Strong mechanical press !!!"]
 			dependencies: ["5C9887575E36C258"]
 			hide: true
 			id: "67102F38AE457366"
@@ -140,7 +140,7 @@
 		{
 			x: 17.0d
 			y: 1.5d
-			description: ["mix as much as you want"]
+			description: ["Mix as much as you want"]
 			dependencies: ["5C9887575E36C258"]
 			hide: true
 			id: "3CE6F76BD84AE461"
@@ -153,7 +153,7 @@
 		{
 			x: 17.0d
 			y: 3.0d
-			description: ["automate harvesting"]
+			description: ["Automate harvesting"]
 			dependencies: ["5C9887575E36C258"]
 			hide: true
 			id: "6625721554762B7E"
@@ -166,7 +166,7 @@
 		{
 			x: 13.5d
 			y: 3.0d
-			description: ["maybe flour and bread? or anything you can grind"]
+			description: ["Flour and bread? or anything else that you can grind"]
 			dependencies: ["5C9887575E36C258"]
 			hide: true
 			id: "7BA90554CBC6C4AD"
@@ -177,11 +177,11 @@
 			}]
 		}
 		{
-			title: "you need it"
+			title: "You need it"
 			icon: "create:basin"
 			x: 11.0d
 			y: 1.0d
-			description: ["basin, depot hand crank"]
+			description: ["Basin, Depot, Hand crank"]
 			dependencies: ["7EE3BBD82AFCA050"]
 			hide: true
 			id: "29D6EECD95CE91F7"
@@ -206,7 +206,7 @@
 		{
 			x: 13.5d
 			y: 5.0d
-			description: ["stronger crushing  - ores, obsidian"]
+			description: ["Stronger crushing  - Ores, obsidian"]
 			dependencies: [
 				"7BA90554CBC6C4AD"
 				"0D9226B15823F86B"
@@ -223,7 +223,7 @@
 			x: 15.5d
 			y: 5.5d
 			description: [
-				"mechanical fan"
+				"Mechanical fan"
 				"press W on its icon and see how to use it"
 			]
 			dependencies: ["5C9887575E36C258"]
@@ -236,11 +236,11 @@
 			}]
 		}
 		{
-			title: "fluids"
+			title: "Fluids"
 			icon: "create:mechanical_pump"
 			x: 13.5d
 			y: -3.5d
-			description: ["transfer fluids and store them in tanks - you can do anything"]
+			description: ["Transfer fluids and store them in tanks - You can do anything"]
 			dependencies: ["5C9887575E36C258"]
 			hide: true
 			id: "5C8130CF746E8378"
@@ -268,8 +268,8 @@
 			x: 16.5d
 			y: 4.5d
 			description: [
-				"mechanical fan"
-				"it's an extension of your hand - it can push and pass instead of you"
+				"Mechanical fan"
+				"It's an extension of your hand - It can push and pass for you"
 			]
 			dependencies: ["5C9887575E36C258"]
 			hide: true
@@ -281,7 +281,7 @@
 			}]
 		}
 		{
-			title: "brass"
+			title: "Brass"
 			icon: {
 				id: "tfc:metal/ingot/brass"
 				Count: 1b
@@ -320,11 +320,11 @@
 			]
 		}
 		{
-			title: "latex to belt"
+			title: "Latex to belt"
 			icon: "create:belt_connector"
 			x: 11.0d
 			y: 2.0d
-			description: ["the mechanical belt will be useful for transferring rotation over long distances - you need it"]
+			description: ["The mechanical belt will be useful for transferring rotation over long distances - You need it"]
 			dependencies: ["29D6EECD95CE91F7"]
 			hide: true
 			id: "43782216AD3B3EB8"
@@ -350,7 +350,7 @@
 			icon: "createsifter:sifter"
 			x: 12.0d
 			y: 3.0d
-			description: ["sifter - is a great device for obtaining resources"]
+			description: ["Sifter - A great device for obtaining resources"]
 			dependencies: ["7BA90554CBC6C4AD"]
 			hide: true
 			id: "49025B08B294594E"
@@ -372,13 +372,13 @@
 			]
 		}
 		{
-			title: "crafters"
+			title: "Crafters"
 			icon: "create:mechanical_crafter"
 			x: 11.5d
 			y: 5.0d
 			description: [
-				"crafters will help you build some items"
-				"requires a large kinetic drive"
+				"Crafters will help you build some items"
+				"Requires a large kinetic drive"
 			]
 			dependencies: ["7FFDD5BC66D48D9F"]
 			hide: true
@@ -391,7 +391,7 @@
 			}]
 		}
 		{
-			title: "copper"
+			title: "Copper"
 			icon: {
 				id: "tfc:metal/ingot/copper"
 				Count: 1b
@@ -404,7 +404,7 @@
 			}
 			x: 8.5d
 			y: -1.5d
-			description: ["to build your first kinetic power you will need a few basic elements"]
+			description: ["To build your first kinetic power you will need a few basic elements"]
 			dependencies: ["1EA8FFB7D51E2A12"]
 			id: "6D2442B6B491A447"
 			tasks: [{
@@ -534,8 +534,8 @@
 			icon: "createoreexcavation:drilling_machine"
 			x: 12.45d
 			y: 6.5d
-			subtitle: "find deposits ores or fluids"
-			description: ["mining resources, but first search deposits geologist ore vein finder"]
+			subtitle: "Find ore deposits or fluids"
+			description: ["Mining resources, but first search for deposits/veins in the geologist ore vein finder"]
 			dependencies: [
 				"0D9226B15823F86B"
 				"05E321DBBE7C04C7"
@@ -574,8 +574,8 @@
 			icon: "createoreexcavation:drilling_machine"
 			x: 13.5d
 			y: 8.0d
-			subtitle: "find deposits ores or fluids"
-			description: ["find oil  or fluids, but first search deposits geologist ore vein finder"]
+			subtitle: "Find ore deposits or fluids"
+			description: ["Find oil or fluids, but first search for deposits/veins in the geologist ore vein finder"]
 			dependencies: ["0131052F551C8267"]
 			hide: true
 			id: "57C715BA69EF42D0"
@@ -605,8 +605,8 @@
 			x: 11.700000000000001d
 			y: 9.75d
 			shape: "gear"
-			subtitle: "unlock Age Nuclear"
-			description: ["you finally got it"]
+			subtitle: "Unlock Age Nuclear"
+			description: ["You finally got it"]
 			dependencies: ["0131052F551C8267"]
 			hide: true
 			size: 1.3d
@@ -620,7 +620,7 @@
 		{
 			x: 11.45d
 			y: 8.0d
-			description: ["shiny something beautiful"]
+			description: ["Oooohh Shiny... Something beautiful"]
 			dependencies: ["0131052F551C8267"]
 			hide: true
 			id: "115D0427432020B0"
@@ -634,7 +634,7 @@
 			x: 10.0d
 			y: 7.800000000000001d
 			shape: "gear"
-			description: ["you finally got it"]
+			description: ["You finally got it"]
 			dependencies: ["0131052F551C8267"]
 			hide: true
 			size: 1.3d
@@ -648,7 +648,7 @@
 		{
 			x: 16.5d
 			y: -2.5d
-			description: ["rods, wires - its easy"]
+			description: ["Rods, Wires - Easy"]
 			dependencies: ["5C9887575E36C258"]
 			hide: true
 			id: "72AFED44ADD2CE4B"
@@ -663,9 +663,9 @@
 			x: 10.5d
 			y: -2.5d
 			description: [
-				"electricity?"
-				"power! "
-				"convenience..."
+				"Electricity?"
+				"Power! "
+				"Convenience..."
 				"Use the resonance generator or alternator to produce electricity"
 			]
 			dependencies: ["6D2442B6B491A447"]
@@ -698,7 +698,7 @@
 			icon: "createaddition:tesla_coil"
 			x: 10.5d
 			y: -4.0d
-			description: ["electric charging"]
+			description: ["Electric charging"]
 			dependencies: ["5646557445AB2790"]
 			hide: true
 			id: "4CAEC6A626691C05"
@@ -732,7 +732,7 @@
 			x: 13.5d
 			y: 9.5d
 			shape: "gear"
-			description: ["Yeaaaa -  infinite clear purified water"]
+			description: ["Yeaaaa - Infinite clear purified water"]
 			dependencies: ["57C715BA69EF42D0"]
 			hide: true
 			size: 1.3d
@@ -749,7 +749,7 @@
 			x: 15.0d
 			y: 9.5d
 			shape: "gear"
-			description: ["Yeaaaa -  we find Crude Oil, but is it small deposits  "]
+			description: ["Yeaaaa - We found Crude Oil, but its a small deposit"]
 			dependencies: ["57C715BA69EF42D0"]
 			hide: true
 			size: 1.3d
@@ -761,13 +761,14 @@
 			}]
 		}
 		{
-			title: "crushed ores"
+			title: "Crushed ores"
 			icon: "create:crushed_iron_ore"
 			x: 14.5d
 			y: 6.5d
 			description: [
-				"crushed ores can be used more efficiently"
-				"Some of these raw materials have an additional product for example by rinsing with water"
+				"Crushed ores can be used more efficiently"
+				"Some of these raw materials can have an additional product"
+				"example: Rinse them with water"
 			]
 			dependencies: ["05E321DBBE7C04C7"]
 			hide: true
@@ -791,7 +792,7 @@
 			]
 		}
 		{
-			title: "little nuggets"
+			title: "Little nuggets"
 			icon: {
 				id: "create:copper_nugget"
 				Count: 1b
@@ -804,7 +805,7 @@
 			}
 			x: 12.0d
 			y: 4.0d
-			description: ["some types of gravel and sand yield small amounts of materials"]
+			description: ["Some types of gravel and sand yield small amounts of materials"]
 			dependencies: ["49025B08B294594E"]
 			hide: true
 			id: "67A49A03973B97A1"
@@ -847,7 +848,7 @@
 		{
 			x: 15.5d
 			y: 8.0d
-			description: ["the first redstone dust can be obtained by washing crushed Iron ore"]
+			description: ["The first redstone dust can be obtained by washing crushed Iron ore"]
 			dependencies: ["29803FD669D0A16B"]
 			id: "42EA9B06964A5D15"
 			tasks: [{

@@ -23,8 +23,8 @@
 			y: -0.5d
 			shape: "hexagon"
 			description: [
-				"your technological development allows you to build a space rocket and go into space for new resources and materials to unlock ????????  final adventure. "
-				"you will be forced to visit the planets of our solar system and find one of the materials that will unlock the final era"
+				"Your technological development allows you to build a space rocket and go into space for new resources and materials. Unlock the ???????? final adventure. "
+				"You will be forced to visit the planets of our solar system and find one of the materials that will unlock the final era"
 			]
 			dependencies: ["37A2C4E7CC0BFF40"]
 			hide: true
@@ -38,7 +38,7 @@
 		{
 			x: -1.0d
 			y: -0.5d
-			description: ["the basic material you need to build NASA technology"]
+			description: ["The basic material you need to build NASA technology"]
 			dependencies: ["692959898792266C"]
 			hide: true
 			id: "171AEB87C67F01FF"
@@ -72,10 +72,10 @@
 			x: 5.5d
 			y: -0.5d
 			description: [
-				"space clothing will allow you to survive in unfavorable conditions on other planets"
+				"Space clothing will allow you to survive in unfavorable conditions on other planets"
 				""
-				"Don't forget to take your oxygen supply until you build a mini base"
-				"in which you will secure its access"
+				"Don't forget to take your oxygen supply with you until you build a mini habitat"
+				"In which you must secure the access"
 			]
 			dependencies: ["2936FA1BDF10366A"]
 			hide: true
@@ -161,11 +161,12 @@
 			y: -0.8d
 			shape: "pentagon"
 			description: [
-				"a type one rocket will allow you to travel to outer space for the first time"
+				"A type 1 rocket will allow you to travel to outer space for the first time"
 				""
-				"Do not forget about supplies in space there is nothing to eat. Don't expect this trip to be easy, the planet may be inhabited"
+				"Do not forget about supplies in space. There is nothing to eat. Don't expect this trip to be easy, the planets may be inhabited"
 				""
-				"Search for new materials Find Desh"
+				"Search for new materials"
+				"Find Desh"
 				"{image:beyond_earth:textures/items/raw_desh.png width:15 height:15 align:1}"
 			]
 			dependencies: [
@@ -195,7 +196,7 @@
 			x: 5.5d
 			y: -2.5d
 			description: [
-				"the bike will allow you to quickly move around the new planet and thus quickly find materials to build new items needed for further space travel"
+				"The bike will allow you to quickly move around the new planet and thus find materials to build new items needed for further space travel"
 				""
 			]
 			dependencies: ["265426C1E83303E4"]
@@ -216,7 +217,7 @@
 			icon: "beyond_earth:compressed_desh"
 			x: 9.0d
 			y: 0.5d
-			description: ["you will need these materials to make a new rocket"]
+			description: ["You will need these materials to make a new rocket"]
 			dependencies: ["4BD5C27544462B5F"]
 			hide: true
 			id: "2E9090AEA16B3AEB"
@@ -238,11 +239,12 @@
 			y: -0.8d
 			shape: "pentagon"
 			description: [
-				"a type two rocket will allow you to fly further to another planet"
+				"A type 2 rocket will allow you to fly further to another planet"
 				""
-				"Do not forget about supplies in space there is nothing to eat"
+				"Do not forget about supplies in space. There is nothing to eat"
 				""
-				"Search for new materials Find Ostrum"
+				"Search for new materials"
+				"Find Ostrum"
 				"{image:beyond_earth:textures/items/raw_ostrum.png width:15 height:15 align:1}"
 			]
 			dependencies: ["2E9090AEA16B3AEB"]
@@ -264,7 +266,7 @@
 			icon: "beyond_earth:compressed_ostrum"
 			x: 11.0d
 			y: 1.0d
-			description: ["you will need these materials to make a new rocket"]
+			description: ["You will need these materials to make a new rocket"]
 			dependencies: ["2CE5883EDF7F47F3"]
 			hide: true
 			id: "4EA9D7CB7F844B01"
@@ -286,11 +288,12 @@
 			y: 0.0d
 			shape: "pentagon"
 			description: [
-				"a type 3 rocket will allow you to fly further to another planet"
+				"A type 3 rocket will allow you to fly further to another planet"
 				""
-				"Do not forget about supplies in space there is nothing to eat"
+				"Do not forget about supplies in space. There is nothing to eat"
 				""
-				"Search for new materials Find Calorite"
+				"Search for new materials"
+				"Find Calorite"
 				"{image:beyond_earth:textures/items/raw_calorite.png width:15 height:15 align:1}"
 			]
 			dependencies: ["4EA9D7CB7F844B01"]
@@ -312,7 +315,7 @@
 			icon: "beyond_earth:calorite_ingot"
 			x: 12.0d
 			y: 2.0d
-			description: ["you will need these materials to make a new rocket"]
+			description: ["You will need these materials to make a new rocket"]
 			dependencies: ["796C7F3F1B0D5AF8"]
 			hide: true
 			id: "1BC965DFE6A9E6B2"
@@ -334,11 +337,12 @@
 			y: 2.4d
 			shape: "pentagon"
 			description: [
-				"a type 3 rocket will allow you to fly further to another planet"
+				"A type 4 rocket will allow you to fly further to another planet"
 				""
-				"Do not forget about supplies in space there is nothing to eat"
+				"Do not forget about supplies in space. There is nothing to eat"
 				""
-				"Search for new materials Find Ostrum"
+				"Search for new materials"
+				"Find Ostrum"
 				"{image:beyond_earth:textures/items/raw_ostrum.png width:15 height:15 align:1}"
 			]
 			dependencies: ["1BC965DFE6A9E6B2"]
@@ -361,11 +365,11 @@
 			x: 9.0d
 			y: 3.75d
 			shape: "rsquare"
-			subtitle: "unlocks Final Chapter"
+			subtitle: "Unlocks Final Chapter"
 			description: [
-				"you have discovered all the necessary materials to craft a magical item that opens a portal to a vast world of adventures"
+				"You have discovered all the necessary materials to craft a magical item that opens a portal to a vast world of adventures"
 				""
-				"This is not the end of the adventure, it may turn out to be just the beginning"
+				"This is not the end of the adventure, it may turn out to be only the beginning"
 			]
 			dependencies: [
 				"2E9090AEA16B3AEB"
@@ -395,7 +399,7 @@
 			icon: "beyond_earth:ice_shard"
 			x: 12.5d
 			y: 3.5d
-			description: ["this will be the last element to craft a magic item"]
+			description: ["This will be the last element to craft a magic item"]
 			dependencies: ["36E7C613622A826B"]
 			hide: true
 			id: "3605BD83AD3A142D"
@@ -410,9 +414,9 @@
 			icon: "immersivepetroleum:diesel_bucket"
 			x: 5.5d
 			y: -1.5d
-			subtitle: "unlock one  step - Age Space"
+			subtitle: "Unlock one step - Age Space"
 			description: [
-				"If you have discovered how to make rocket fuel - join the next era - the conquest of space"
+				"If you have discovered how to make rocket fuel - Join the next era - The conquest of space"
 				""
 			]
 			dependencies: ["265426C1E83303E4"]

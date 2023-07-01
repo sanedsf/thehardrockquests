@@ -22,8 +22,8 @@
 			x: -1.0d
 			y: 0.0d
 			shape: "gear"
-			subtitle: "right click ''Akastic Tome'' and select book - other book - left click  cancel"
-			description: ["everything is here - everything you need to know about STEEL and advanced machinery"]
+			subtitle: "''RIGHT CLICK'' with ''Akashic Tome'' in hand and choose the book you need - LEFT CLICK to cancel and pick a new one"
+			description: ["Everything is here - Everything you need to know about STEEL and advanced machinery"]
 			dependencies: ["2C1F40C6E45C5388"]
 			hide: true
 			size: 2.0d
@@ -35,7 +35,7 @@
 			}]
 		}
 		{
-			title: "more steel"
+			title: "More steel"
 			icon: {
 				id: "tfc:metal/ingot/steel"
 				Count: 1b
@@ -48,7 +48,7 @@
 			}
 			x: -1.0d
 			y: -2.5d
-			description: ["you need a lot of steel"]
+			description: ["You need a lot of steel"]
 			dependencies: ["43D80720A648B27E"]
 			hide: true
 			id: "373DD844B47B408E"
@@ -108,8 +108,8 @@
 			x: -1.0d
 			y: -5.0d
 			description: [
-				"use a kinetic dynamo to convert the energy of the wheel's motion into electricity"
-				"You can also use the way of generating energy from the Crate mod"
+				"Use a kinetic dynamo to convert the energy of the wheel's motion into electricity"
+				"You can also generate energy from the Create mod"
 			]
 			dependencies: ["373DD844B47B408E"]
 			hide: true
@@ -167,9 +167,9 @@
 			x: -3.0d
 			y: -4.5d
 			description: [
-				"build crusher - big crushing machine"
-				"use projector  engineering"
-				"read Engineering manual"
+				"Build a crusher - Big crushing machine"
+				"Use projector from engineering"
+				"Read the Engineering manual"
 				"{image:immersiveengineering:textures/item/tool_manual.png width:15 height:15 align:1}"
 			]
 			dependencies: ["30F07C1929542A93"]
@@ -206,8 +206,8 @@
 			x: -3.0d
 			y: 0.0d
 			shape: "gear"
-			subtitle: "right click ''Akastic Tome'' and select book - other book - left click  cancel"
-			description: ["everything is here - everything you need to know about Compressed Technics and advanced machinery"]
+			subtitle: "''RIGHT CLICK'' with ''Akashic Tome'' in hand and choose the book you need - LEFT CLICK to cancel and pick a new one"
+			description: ["Everything is here - Everything you need to know about Compressed Technics and advanced machinery"]
 			dependencies: [
 				"2C1F40C6E45C5388"
 				"0131052F551C8267"
@@ -228,7 +228,7 @@
 			}]
 		}
 		{
-			title: "compressed iron"
+			title: "Compressed iron"
 			icon: {
 				id: "pneumaticcraft:ingot_iron_compressed"
 				Count: 1b
@@ -241,10 +241,10 @@
 			}
 			x: -6.0d
 			y: 0.0d
-			subtitle: "expolion crafting"
+			subtitle: "Expolion crafting"
 			description: [
-				"you need a compressed iron"
-				"during a controlled explosion, iron ingots are compressed iron"
+				"You need compressed iron"
+				"During a controlled explosion, iron ingots are compressed iron"
 			]
 			dependencies: ["45DFA5CC612AAB64"]
 			hide: true
@@ -298,9 +298,9 @@
 			x: 0.5d
 			y: -3.5d
 			description: [
-				"build metal press"
-				"use projector  engineering"
-				"read Engineering manual"
+				"Build metal press"
+				"Use projector from engineering"
+				"Read the Engineering manual"
 				"{image:immersiveengineering:textures/item/tool_manual.png width:15 height:15 align:1}"
 			]
 			dependencies: ["30F07C1929542A93"]
@@ -348,10 +348,10 @@
 			x: 0.0d
 			y: -7.0d
 			description: [
-				"build big Arc Furnace"
+				"Build big Arc Furnace"
 				""
-				"read Engineering manual"
-				"a large structure needs a lot of electricity, keep this in mind"
+				"Read the Engineering manual"
+				"A large structure needs a lot of electricity, keep this in mind"
 			]
 			dependencies: ["30F07C1929542A93"]
 			hide: true
@@ -412,7 +412,7 @@
 			]
 		}
 		{
-			title: "SawMill"
+			title: "Saw Mill"
 			icon: {
 				id: "ftbquests:custom_icon"
 				Count: 1b
@@ -423,8 +423,8 @@
 			x: -3.0d
 			y: -6.0d
 			description: [
-				"build big SawMill"
-				"produce lumber most effective"
+				"Build big SawMill"
+				"Produce lumber, the most effective way"
 			]
 			dependencies: ["30F07C1929542A93"]
 			hide: true
@@ -468,11 +468,11 @@
 			]
 		}
 		{
-			title: "sample minerals"
+			title: "Sample minerals"
 			icon: "immersiveengineering:sample_drill"
 			x: -2.0d
 			y: -9.5d
-			description: ["use drill for find ore veins"]
+			description: ["Use a drill to find ore veins"]
 			dependencies: ["2787ABC6AB238E88"]
 			hide: true
 			id: "70ECED9DE7F25427"
@@ -494,7 +494,7 @@
 			x: 0.5d
 			y: -11.0d
 			description: [
-				"build big Refinery for crude oil processing"
+				"Build big Refinery for crude oil processing"
 				""
 			]
 			dependencies: ["2787ABC6AB238E88"]
@@ -550,7 +550,7 @@
 			x: -1.0d
 			y: -11.0d
 			description: [
-				"build big Refinery for crude oil processing"
+				"Build a big Refinery for crude oil processing"
 				""
 			]
 			dependencies: ["276A0C4688CE6EDA"]
@@ -606,9 +606,9 @@
 			x: -3.0d
 			y: -11.0d
 			description: [
-				"find ore veins - use big excavator machine "
+				"Find ore veins - Use big excavator machine "
 				""
-				" important - need 4k FE/t"
+				"IMPORTANT - needs 4k FE/t"
 			]
 			dependencies: [
 				"12D6E3396EFCBA0E"
@@ -661,7 +661,7 @@
 			]
 		}
 		{
-			title: "Cokker"
+			title: "Cooker"
 			icon: {
 				id: "ftbquests:custom_icon"
 				Count: 1b
@@ -672,10 +672,10 @@
 			x: 1.5d
 			y: -6.0d
 			description: [
-				"build big Arc Furnace"
-				"use projector  engineering"
-				"read Engineering manual"
-				"a large structure needs a lot of electricity, keep this in mind"
+				"Build big Arc Furnace"
+				"Use projector from engineering"
+				"Read the Engineering manual"
+				"A large structure needs a lot of electricity, keep this in mind"
 			]
 			dependencies: ["18861B01D62463AB"]
 			hide: true
@@ -786,8 +786,8 @@
 			y: -11.0d
 			description: [
 				"Destilation Tower"
-				"you will finally be able to process the obtained petroleum"
-				"read Engineering manual"
+				"You will finally be able to process the obtained petroleum"
+				"Read the Engineering manual"
 			]
 			dependencies: ["05DB83EADA0C373C"]
 			hide: true
@@ -836,8 +836,8 @@
 			x: -2.0d
 			y: -7.0d
 			description: [
-				"build Coke Oven"
-				"change coal on Coal Coke"
+				"Build Coke Oven"
+				"Change coal to Coal Coke"
 				"{image:immersiveengineering:textures/item/tool_manual.png width:15 height:15 align:1}"
 			]
 			dependencies: ["30F07C1929542A93"]
@@ -859,13 +859,13 @@
 			]
 		}
 		{
-			title: "fast Steel produce"
+			title: "Fast Steel produce"
 			icon: "immersiveengineering:storage_steel"
 			x: -1.0d
 			y: -8.0d
 			description: [
-				"use Arc Furnace"
-				"for faster steel produce"
+				"Use Arc Furnace"
+				"Faster steel produce"
 			]
 			dependencies: [
 				"18861B01D62463AB"
@@ -907,8 +907,8 @@
 			x: -2.0d
 			y: -3.5d
 			description: [
-				"build big Squeezer"
-				"produce seed oil and biofuel components"
+				"Build big Squeezer"
+				"Produce seed oil and biofuel components"
 			]
 			dependencies: ["30F07C1929542A93"]
 			hide: true
@@ -979,8 +979,8 @@
 			y: -9.0d
 			description: [
 				"Derrick Tower"
-				"now you will get the crude oil out of the ground"
-				"read Engineering manual"
+				"Now you will get the crude oil out of the ground"
+				"Read the Engineering manual"
 				"{image:immersiveengineering:textures/item/tool_manual.png width:15 height:15 align:1}"
 			]
 			dependencies: ["665DDA9CC99F582F"]
@@ -1051,7 +1051,7 @@
 			x: 0.5d
 			y: -8.0d
 			description: [
-				"search search for large deposits of crude oil"
+				"Search for large deposits of crude oil"
 				""
 			]
 			dependencies: ["2787ABC6AB238E88"]
@@ -1069,8 +1069,8 @@
 			x: 1.0d
 			y: -5.0d
 			description: [
-				"build Mixer"
-				"you need him"
+				"Build Mixer"
+				"You need him"
 			]
 			dependencies: ["30F07C1929542A93"]
 			hide: true
@@ -1127,8 +1127,8 @@
 			x: -6.0d
 			y: -3.0d
 			description: [
-				"build a pressure chamber"
-				"how -  you already know, see the PNC manual"
+				"Build a pressure chamber"
+				"How? -  You already know, see the PNC manual"
 				"{image:pneumaticcraft:textures/item/manual.png width:15 height:15 align:1}"
 			]
 			dependencies: ["26C796BFC4F33E55"]
@@ -1165,8 +1165,8 @@
 			x: -6.0d
 			y: -1.5d
 			description: [
-				"build first air compressor"
-				"how -  you already know, see the PNC manual"
+				"Build first air compressor"
+				"How? -  You already know, see the PNC manual"
 				"{image:pneumaticcraft:textures/item/manual.png width:15 height:15 align:1}"
 			]
 			dependencies: ["1BB2C94F47D40D17"]
@@ -1187,14 +1187,14 @@
 			]
 		}
 		{
-			title: "compressed iron"
+			title: "Compressed iron"
 			icon: "pneumaticcraft:plastic"
 			x: -4.5d
 			y: 2.0d
-			subtitle: "expolion crafting"
+			subtitle: "Expolion crafting"
 			description: [
 				""
-				"new technologies will allow you to create plastic material"
+				"New technologies will allow you to create plastic material"
 			]
 			dependencies: ["45DFA5CC612AAB64"]
 			hide: true
@@ -1224,8 +1224,8 @@
 			x: 1.5d
 			y: -10.0d
 			description: [
-				"use the pumpjack to extract oil from the underground"
-				"read Engineering manual"
+				"Use the pumpjack to extract oil from the underground"
+				"Read the Engineering manual"
 			]
 			dependencies: ["3539A35820F5283F"]
 			hide: true
@@ -1281,12 +1281,12 @@
 			]
 		}
 		{
-			title: "silicon"
+			title: "Silicon"
 			icon: "refinedstorage:silicon"
 			x: 1.5d
 			y: -7.0d
 			subtitle: "ulocked Refined Storage System"
-			description: ["silicon open new technologies storage system"]
+			description: ["Silicon opens up new technologies for storage system"]
 			dependencies: ["18861B01D62463AB"]
 			hide: true
 			id: "3490ED7CDC9A2831"
@@ -1297,13 +1297,13 @@
 			}]
 		}
 		{
-			title: "wolf spawn egg"
+			title: "Wolf spawn egg"
 			icon: "minecraft:wolf_spawn_egg"
 			x: -7.5d
 			y: -3.0d
 			description: [
-				"use a pressure chamber - take egg "
-				"and rotten flesh to create wolf egg"
+				"Use a pressure chamber - Take an egg "
+				"and rotten flesh to create a wolf egg"
 				"{image:pneumaticcraft:textures/item/manual.png width:15 height:15 align:1}"
 			]
 			dependencies: ["759538C10540F07F"]
@@ -1316,15 +1316,15 @@
 			}]
 		}
 		{
-			title: "tamed dog"
+			title: "Tamed dog"
 			icon: "doggytalents:throw_bone"
 			x: -7.5d
 			y: -4.5d
 			description: [
-				"tamed you wolf to farm dog"
-				"use treats to conver him on trained dog"
+				"Tame your wolf to a farm dog"
+				"Use treats to convert him to a trained dog"
 				"{image:pneumaticcraft:textures/item/manual.png width:15 height:15 align:1}"
-				"when you use a stick on a trained dog, you can train it and give it a job"
+				"When you use a stick on a trained dog, you can train it and give it a job"
 			]
 			dependencies: ["284FB0B8DF53D0DC"]
 			hide: true

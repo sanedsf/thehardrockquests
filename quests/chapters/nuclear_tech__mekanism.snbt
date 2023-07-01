@@ -79,7 +79,7 @@
 			shape: "gear"
 			description: [
 				""
-				"With the discovery of uranium, you start a new nuclear era. a lot of new machines and technologies that will allow for production faster and more efficiently. but be careful with uran, if you pollute your world you will have to move away from your home"
+				"With the discovery of uranium, you start a new nuclear era. A lot of new machines and technologies that will allow for faster production and more efficiency. But be careful with uranium, if you pollute your world you will have to move away from your home"
 			]
 			dependencies: [
 				"2C1F40C6E45C5388"
@@ -306,7 +306,7 @@
 			icon: "mekanismgenerators:rotational_complex"
 			x: 1.0d
 			y: -8.0d
-			description: ["The Industrial Turbine is a multiblock generator used to produce energy if supplied with big quantity of Steam."]
+			description: ["The Industrial Turbine is a multiblock generator used to produce energy if supplied with big quantities of Steam."]
 			dependencies: ["000000000000093F"]
 			hide: true
 			id: "1A8E113CE242F980"
@@ -504,7 +504,7 @@
 			y: 2.5d
 			description: [
 				"The Chemical Washer turns Slurry into Clean Slurry using Water."
-				"- the efficiency of processing raw ores increases x5"
+				"- The efficiency of processing raw ores increases x5"
 			]
 			dependencies: ["68F46344FDCA4DAE"]
 			hide: true
@@ -520,8 +520,8 @@
 			x: 1.0d
 			y: -3.5d
 			description: [
-				"The Chemical Infuser combines or reacts two gases to create another gas."
-				"create uranium hexafluoride"
+				"The Chemical Infuser combines or reacts to two gases to create another gas."
+				"Uranium hexafluoride"
 			]
 			dependencies: ["0000000000000916"]
 			hide: true
@@ -575,7 +575,7 @@
 			y: 2.5d
 			description: [
 				"The Purification Chamber uses oxygen to refine Ores and shards into clumps."
-				"- the efficiency of processing raw ores increases x3"
+				"- The efficiency of processing raw ores increases x3"
 			]
 			dependencies: ["68F46344FDCA4DAE"]
 			hide: true
@@ -608,7 +608,7 @@
 			y: 2.5d
 			description: [
 				"The Chemical Injection Chamber uses Hydrogen Chloride gas to turn ores into 4 Shards."
-				"- the efficiency of processing raw ores increases x4"
+				"- The efficiency of processing raw ores increases x4"
 			]
 			dependencies: ["68F46344FDCA4DAE"]
 			hide: true
@@ -712,7 +712,7 @@
 			description: [
 				"Obtain a Polonium Pellet using a Pressurized Reaction Chamber with Water, Polonium and Fluorite Dust."
 				""
-				"Be aware that this process create Spent Nuclear Waste."
+				"Be aware that this process creates Spent Nuclear Waste."
 			]
 			dependencies: ["00000000000008F6"]
 			hide: true
@@ -871,7 +871,7 @@
 			y: -2.5d
 			description: [
 				"The Chemical Oxidizer is used for making gases from materials."
-				"-> you need uranium oxide"
+				"-> You need Uranium oxide"
 			]
 			dependencies: ["00000000000008EE"]
 			hide: true
@@ -995,7 +995,7 @@
 			x: -1.5d
 			y: 3.5d
 			description: [
-				"The Speed Upgrade make them process items faster."
+				"The Speed Upgrade makes them process items faster."
 				"The Energy Upgrade increases the power capacity of a Mekanism machine, as well as reduce its power consumption per tick."
 				"The Filter Upgrade separates Water from Heavy Water. Its only use is in the Electric Pump."
 				"The Muffling Upgrade reduces noise from Mekanism machinery."
@@ -1056,7 +1056,7 @@
 			x: -8.5d
 			y: 2.0d
 			description: [
-				"The Wind Generator is used to generate passively energy with wind."
+				"The Wind Generator is used to passively generate energy with wind."
 				""
 				"The highest you go, the more energy you can get."
 			]
@@ -1182,7 +1182,7 @@
 			icon: "mekanism:module_jetpack_unit"
 			x: -4.5d
 			y: -8.5d
-			description: ["units give you MekaSuite armor upgrades"]
+			description: ["Energy Unit gives your MekaSuite armor upgrades"]
 			dependencies: ["0000000000000948"]
 			hide: true
 			id: "27EFB41933784BCB"
@@ -1208,7 +1208,7 @@
 			}
 			x: -3.0d
 			y: -9.0d
-			description: ["meka tool is an advanced device useful in every situation"]
+			description: ["Meka tool is an advanced device useful in every situation"]
 			dependencies: ["0000000000000948"]
 			hide: true
 			id: "107DA0BD545A710D"
@@ -1239,8 +1239,8 @@
 			x: -2.5d
 			y: 3.5d
 			description: [
-				"crystalizer turns slurry into 5 crystals ores"
-				"the efficiency of obtaining raw materials is even greater, up to five times"
+				"Crystalizer turns slurry into 5 crystals ores"
+				"The efficiency of obtaining raw materials is even greater, up to five times"
 			]
 			dependencies: ["0000000000000904"]
 			hide: true
@@ -1257,7 +1257,7 @@
 			shape: "gear"
 			subtitle: "Unlocks Space Ages"
 			description: [
-				"creating antimatter will allow you to enter the era of space conquest"
+				"Creating antimatter will allow you to enter the era of space conquest"
 				""
 			]
 			dependencies: ["000000000000094B"]
@@ -1271,13 +1271,13 @@
 			}]
 		}
 		{
-			title: "flux composite"
+			title: "Flux composite"
 			icon: "fluxnetworks:flux_dust"
 			x: -7.0d
 			y: 4.5d
 			description: [
 				"Flux Dust is the basic material in creating wireless electrical connections"
-				"this will facilitate the work and distribution with FE"
+				"This will facilitate the work and distribution of FE"
 			]
 			dependencies: ["08EA1793E35C9E60"]
 			hide: true
@@ -1301,14 +1301,14 @@
 			]
 		}
 		{
-			title: "flux"
+			title: "Flux"
 			x: -7.0d
 			y: 6.0d
 			description: [
-				"the flux controller threshold is the heart of our system, it will control all FE that we direct to it"
-				"- flux plug - FE ''in'' System Flux"
-				"- flux point - FE ''out'' System Flux, will power machines "
-				"- flux storage - energy storage"
+				"The flux controller threshold is the heart of our system, it will control all FE that we direct to it"
+				"- Flux plug - FE ''in'' System Flux"
+				"- Flux point - FE ''out'' System Flux, will power machines "
+				"- Flux storage - Energy storage"
 			]
 			dependencies: ["02D72792518B0869"]
 			hide: true
@@ -1341,7 +1341,7 @@
 			icon: "mekanism:digital_miner"
 			x: 5.0d
 			y: -2.0d
-			description: ["Digital Miner is a machine for automatic extraction of metals and minerals from the underground I need a lot of energy but it will automate the extraction of raw materials"]
+			description: ["Digital Miner is a machine for automatic extraction of metals and minerals from underground - It needs a lot of energy but it will automate the extraction of raw materials"]
 			dependencies: ["022B48C17014A9F7"]
 			hide: true
 			id: "68DAEC03700BA513"

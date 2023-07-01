@@ -21,7 +21,7 @@
 		dependency: "68DC32CE4CE4B4F1"
 	}]
 	quests: [{
-		title: "quick search"
+		title: "Quick Search"
 		icon: {
 			id: "tfc:metal/pickaxe/copper"
 			Count: 1b
@@ -40,12 +40,12 @@
 		shape: "gear"
 		description: [
 			""
-			"this table will help you quickly find metals in specific rock layers"
+			"This table will help you quickly find metals in specific rock layers"
 			""
-			"the \"b\" key opens the geologist's map. on it you will see what stones you have met so far and what layers of rocks are under them"
+			"The \"b\" key opens the geologist's map. on it you will see what stones you have met so far and what layers of rocks are under them"
 			""
 			""
-			"the \"n\" key allows you to plot your own waypoints on the geologist's map"
+			"The \"n\" key allows you to plot your own waypoints on the geologist's map"
 		]
 		dependencies: ["68DC32CE4CE4B4F1"]
 		hide: true

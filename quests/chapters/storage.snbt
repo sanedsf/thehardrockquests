@@ -23,7 +23,7 @@
 			}
 			x: 3.5d
 			y: -1.5d
-			description: ["you found a clay - steward a vessel in which you will store your items - If you don't know how to do it, see the book Terrafirmacraft guide"]
+			description: ["You found clay - Create a vessel in which you will store your items - If you don't know how to do it, see the book Terrafirmacraft guide"]
 			dependencies: [
 				"2DB43046BD0FCBD6"
 				"43A3F6984C4136E3"
@@ -34,7 +34,7 @@
 				{
 					id: "43FF063E5F058639"
 					type: "item"
-					title: "vessel"
+					title: "Vessel"
 					item: {
 						id: "tfc:ceramic/unfired_vessel"
 						Count: 1b
@@ -64,7 +64,7 @@
 			]
 		}
 		{
-			title: "large vessel"
+			title: "Large vessel"
 			icon: {
 				id: "tfc:ceramic/unfired_large_vessel/orange"
 				Count: 1b
@@ -77,7 +77,7 @@
 			}
 			x: 5.0d
 			y: -1.5d
-			description: ["a large vessel holds more items but also liquids and you can put it on your back to use as a backapack"]
+			description: ["A large vessel holds more items but also liquids. You can also put it on your back to use as a backapack"]
 			dependencies: [
 				"2DB43046BD0FCBD6"
 				"4A97A21CE49425F5"
@@ -88,7 +88,7 @@
 				{
 					id: "63440B51E2E525BE"
 					type: "item"
-					title: "vessel"
+					title: "Vessel"
 					item: {
 						id: "tfc:ceramic/unfired_large_vessel"
 						Count: 1b
@@ -110,14 +110,14 @@
 		{
 			x: 6.5d
 			y: -1.5d
-			description: ["if you have already crafted the planks, you will craft the chests- do it!"]
+			description: ["If you have already crafted the planks, you will craft the chests - Do it!"]
 			dependencies: ["50B8838BD9145E3C"]
 			hide: true
 			id: "7D1BA16E49E5FF47"
 			tasks: [{
 				id: "04C2A83C89AC502D"
 				type: "item"
-				title: "wooden chests"
+				title: "Wooden chests"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -133,8 +133,8 @@
 			x: 3.5d
 			y: 1.5d
 			description: [
-				"once the silicone is made, you will be able to take care of the special  refined storage system"
-				"you need a permanent connection to a power source"
+				"Once the silicone is made, you will be able to take care of the special Refined storage system"
+				"You need a permanent connection to a power source"
 			]
 			dependencies: ["43A3F6984C4136E3"]
 			hide: true
@@ -143,7 +143,7 @@
 				{
 					id: "0F9EED435FCD5E51"
 					type: "item"
-					title: "silicon"
+					title: "Silicon"
 					icon: "refinedstorage:silicon"
 					item: {
 						id: "tfc:ceramic/unfired_vessel"
@@ -164,11 +164,11 @@
 			]
 		}
 		{
-			title: "controller"
+			title: "Controller"
 			icon: "refinedstorage:controller"
 			x: 5.5d
 			y: 1.5d
-			description: ["the controller is the heart of our system and is necessary for the functioning of the entire infrastructure"]
+			description: ["The controller is the heart of our system and is necessary for the entire infrastructure to function"]
 			dependencies: ["1CAF3AF81B2F92B9"]
 			hide: true
 			id: "4B0318BD9F6E4DA4"
@@ -189,7 +189,7 @@
 		{
 			x: 7.5d
 			y: 1.5d
-			description: ["Connect your barrels, chests, drawers  with this and you will gain access to all your items in the system"]
+			description: ["Connect your barrels, chests, drawers with this and you will gain access to all your items in the system"]
 			dependencies: ["4B0318BD9F6E4DA4"]
 			hide: true
 			id: "6EA7CC7C62F2E0BB"
@@ -203,7 +203,7 @@
 			icon: "refinedstorage:disk_drive"
 			x: 9.5d
 			y: 1.5d
-			description: ["after connecting the drives, you can store all your items on them, the amount you can store will depend on the size of the disks.  Remember that the system must be connected to the power supply at all times"]
+			description: ["After connecting the drives, you can store all your items on them, the ammount you can store will depend on the size of the disks. Remember that the system must be connected to the power supply at all times"]
 			dependencies: ["6EA7CC7C62F2E0BB"]
 			hide: true
 			id: "7C5EB4766FB2E5BA"
@@ -224,7 +224,7 @@
 			title: "Drawers System"
 			x: 8.0d
 			y: -1.5d
-			description: ["engravers store large quantities of a single item or fluid"]
+			description: ["Engravers store large quantities of a single item or fluid"]
 			dependencies: ["7D1BA16E49E5FF47"]
 			hide: true
 			id: "0E4E07FFB5A820BE"
@@ -252,7 +252,7 @@
 			title: "Framed Drawers"
 			x: 9.5d
 			y: -1.5d
-			description: ["you can personalize the appearance of the drawers by combining the Framed darwer with other blocks"]
+			description: ["You can personalize the appearance of the drawers by combining the Framed darwer with other blocks"]
 			dependencies: ["0E4E07FFB5A820BE"]
 			hide: true
 			id: "51D650AAD722ADAC"
@@ -266,7 +266,7 @@
 			title: "Tools"
 			x: 11.0d
 			y: -1.5d
-			description: ["you will use Tools to configured the drawers"]
+			description: ["You will use Tools to configure the drawers"]
 			dependencies: ["51D650AAD722ADAC"]
 			hide: true
 			id: "42202A001946F064"
@@ -299,7 +299,7 @@
 		{
 			x: 12.5d
 			y: -1.5d
-			description: ["a controller will be used to control all drawers"]
+			description: ["A controller will be used to control all drawers"]
 			dependencies: ["42202A001946F064"]
 			hide: true
 			id: "04B4185E65F36C6C"
@@ -313,7 +313,7 @@
 			title: "Upgrades"
 			x: 14.0d
 			y: -1.5d
-			description: ["what time will you change your capacity and use of crates"]
+			description: ["Upgrade the capacity"]
 			dependencies: ["04B4185E65F36C6C"]
 			hide: true
 			id: "495F8A2EEA846144"
@@ -360,7 +360,7 @@
 		{
 			x: 11.5d
 			y: 0.0d
-			description: ["well add wireless access to your entire inventory"]
+			description: ["Add wireless access to your entire inventory"]
 			dependencies: ["7C5EB4766FB2E5BA"]
 			hide: true
 			id: "3640DC0066DC7F25"

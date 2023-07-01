@@ -41,7 +41,7 @@
 			icon: "minecraft:blue_ice"
 			x: 0.0d
 			y: -3.5d
-			description: ["when it is cold, use warm clothes or move closer to a heat source. build a you home because the house is warmer"]
+			description: ["When it is cold, use warm clothes or move closer to a heat source. Build a home because the house is warmer"]
 			dependencies: ["43A3F6984C4136E3"]
 			hide: true
 			size: 2.0d
@@ -195,7 +195,7 @@
 			icon: "tfc:firepit"
 			x: 0.0d
 			y: 0.0d
-			description: ["firepit is good heat source - when you are near it will warm you"]
+			description: ["A firepit is good heat source - When you are near; it will warm you"]
 			dependencies: ["2450F1AC75601AC2"]
 			hide: true
 			size: 1.5d
@@ -210,7 +210,7 @@
 			icon: "minecraft:lava_bucket"
 			x: 0.0d
 			y: 3.0d
-			description: ["lava is a powerful source of heat - in winter it may be necessary"]
+			description: ["Lava is a powerful source of heat - In winter it may be necessary"]
 			dependencies: ["595D54A6418D8DEA"]
 			hide: true
 			size: 1.5d
@@ -226,7 +226,7 @@
 			icon: "minecraft:sunflower"
 			x: 5.0d
 			y: -3.5d
-			description: ["summer is hot but beware machines and heat sources also keep you warm"]
+			description: ["Summer is hot but beware, machines and heat sources also keep you warm"]
 			dependencies: ["43A3F6984C4136E3"]
 			hide: true
 			size: 2.0d
@@ -310,7 +310,7 @@
 			icon: "minecraft:water_bucket"
 			x: 5.0d
 			y: 0.0d
-			description: ["water is not only muddy but also cools when you are hot or it is hot summer"]
+			description: ["Water is not only muddy but also cools you when you are hot or it is summer"]
 			dependencies: ["7E0D6F601DF62AD9"]
 			hide: true
 			size: 1.5d
@@ -393,7 +393,7 @@
 		{
 			x: 5.0d
 			y: 3.0d
-			description: ["ice can always cool you down when it's too hot"]
+			description: ["Ice can always cool you down when it is too hot"]
 			dependencies: ["0847B8484857A0B0"]
 			hide: true
 			size: 1.5d
@@ -408,8 +408,8 @@
 			x: 5.0d
 			y: -1.5d
 			description: [
-				"straw hat is easy craft and protect you from warm and sun"
-				"when you hide under a roof or under a tree you also cool down"
+				"Straw hat is easy to craft and protects you from the heat and sun"
+				"When you hide under a roof or under a tree you will also cool down"
 			]
 			dependencies: ["7E0D6F601DF62AD9"]
 			hide: true
@@ -432,7 +432,7 @@
 			x: 8.0d
 			y: -3.0d
 			description: [
-				"Many animals are not peaceful towards you. Avoid large predators. Early in the game, destroy snake and tarantulas nests (burrow) around you if you don't want them to visit you. There are small but deadly piranhas in the rivers and sharks in the seas. It will be hard at first but you can do it!"
+				"Many animals are not peaceful towards you. Avoid large predators. Early game, destroy snake and tarantulas nests (burrowed) around you if you don't want unexpected visitors. There are small but deadly piranhas in the rivers and sharks in the seas. It will be hard at first but you can do it!"
 				""
 			]
 			dependencies: ["43A3F6984C4136E3"]
@@ -451,9 +451,9 @@
 			x: 2.5d
 			y: -4.5d
 			description: [
-				"Settling near a lake or river is a good idea because you will need water. make sure to purified it because drinking dirty water causes diseases"
+				"Settling near a lake or river is a good idea because you will need drinkable water. Make sure to purify it because drinking dirty water causes disease"
 				""
-				"to drink water from a lake or river, press shift and right mouse button"
+				"To drink water from a lake or river, press ''SHIFT'' + ''RIGHT Mouse Button''"
 			]
 			dependencies: ["43A3F6984C4136E3"]
 			hide: true
@@ -470,7 +470,7 @@
 			icon: "watercondenser:watercondenser"
 			x: 2.5d
 			y: -1.5d
-			description: ["a good and cheap source of water is a water condenser, but remember the water you have to purify before drinking"]
+			description: ["A good and cheap source of water is a water condenser, but remember that the water must be purified before drinking"]
 			dependencies: ["4000B42666202503"]
 			hide: true
 			id: "4EB64621C9851B24"
@@ -485,7 +485,7 @@
 			icon: "tfc:rock/aqueduct/granite"
 			x: 2.5d
 			y: 0.5d
-			description: ["aqueducts are a good way to supply water to agricultural fields and bring it to places where there is no water"]
+			description: ["Aqueducts are a good way to supply water to agricultural fields and bring it to places where there is no water"]
 			dependencies: ["4EB64621C9851B24"]
 			hide: true
 			id: "4448FC9B28E30815"
@@ -508,7 +508,7 @@
 			icon: "supplementaries:soap"
 			x: -3.0d
 			y: -3.0d
-			description: ["body hygiene modification means that you get dirty when running or walking on mud and you can get sick. keep your body clean. little blue indicates next to the character model - how dirty you are. dirty also you run slower - swim in water, river or wash with soap to be clean"]
+			description: ["Body hygiene modification means that you get dirty when running or walking on mud and you can get sick. Keep your body clean. Little blue icon next to the character model indicates your dirty level - Dirty means you also run slower - Swim in water, river or wash with soap to get clean"]
 			dependencies: ["43A3F6984C4136E3"]
 			hide: true
 			size: 2.0d
@@ -526,14 +526,14 @@
 			y: -1.0d
 			description: [
 				"Technological development is polluting the environment. Make sure this doesn't happen in your world"
-				"carbon, sulfur, dusts - these refrigerants will be produced by the heat source of the machines, furnaces, torches ... and more "
+				"Carbon, sulfur, dusts - these pollutants will be produced by the heat source of the machines, furnaces, torches ... and more "
 				""
-				"Make sure to mitigate the effects of these particles by using chimney ventilation filters Otherwise your world will be polluted and you will die"
+				"Make sure to mitigate the effects of these particles by using chimney ventilation filters. Otherwise your world will be polluted and you will die"
 				""
-				"some fabrics can filter out dangerous particles - wool filters sulfur - leaves filter carbon - paper or cloth filters the dusts"
+				"Some fabrics can filter out dangerous particles - Wool filters sulfur - Leaves filters carbon - Paper or Cloth filters the dusts"
 				""
-				"in severe cases - Use a vacuums to get rid of dust, carbon and sulfur"
-				"you will need a respirator to breathe in polluted air"
+				"In severe cases  use a vacuums to get rid of dust, carbon and sulfur"
+				"You will need a respirator to breathe in polluted air"
 			]
 			dependencies: ["43A3F6984C4136E3"]
 			hide: true
@@ -613,12 +613,12 @@
 			x: 8.5d
 			y: -1.0d
 			description: [
-				"In TerraFirmaCraft, the climate and the time are both very important factors"
+				"In TerraFirmaCraft, the Climate and Time are both very important factors"
 				""
 				""
-				"seasons Temperatures of the growing region type and amount of rainfall"
-				"all this will affect your survival and how you can use your surrounding terrain"
-				"wild crops as well as fruit trees occur in certain climatic and weather conditions Otherwise your crops and your gardens will not grow"
+				"Seasons, Temperatures of the growing region types and the amount of rainfall"
+				"All of those will affect your survival and how you can use your surrounding terrain"
+				"Wild crops as well as fruit trees grow in certain climatic and weather conditions. Otherwise your crops and your gardens will not grow"
 			]
 			dependencies: ["43A3F6984C4136E3"]
 			hide: true

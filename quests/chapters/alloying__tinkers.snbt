@@ -9,12 +9,12 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "everything is here"
+			title: "Everything is here"
 			x: -1.5d
 			y: 0.0d
 			shape: "gear"
-			subtitle: "right click ''Akastic Tome'' and select book - left click  cancel"
-			description: ["everything you need to know about alloying metals is on Encyclopedia of Tinkering  - you will produce more metals and metal alloys faster"]
+			subtitle: "''RIGHT CLICK'' with ''Akashic Tome'' in hand and choose the book you need - LEFT CLICK to cancel and pick a new one"
+			description: ["Everything you need to know about alloying metals is on the ''Encyclopedia of Tinkering'' - You will produce more metals and metal alloys faster"]
 			dependencies: ["51A691FE368A3E88"]
 			hide: true
 			size: 2.0d
@@ -26,11 +26,11 @@
 			}]
 		}
 		{
-			title: "melter"
+			title: "Melter"
 			icon: "tconstruct:seared_melter"
 			x: 1.0d
 			y: 0.0d
-			description: ["first blocks of metal faster crafting of bars and more efficiency"]
+			description: ["First blocks of metal, faster crafting of bars and more efficiency overall"]
 			dependencies: ["6B003676E78EE5D7"]
 			hide: true
 			id: "5AE978CADC8BC927"
@@ -70,7 +70,7 @@
 			]
 		}
 		{
-			title: "big smeltery"
+			title: "Big Smeltery"
 			icon: {
 				id: "tconstruct:smeltery_controller"
 				Count: 1b
@@ -80,7 +80,7 @@
 			}
 			x: 4.0d
 			y: 0.0d
-			description: ["smelter is a multi-block structure that has a huge capacity and will help you do metal casting quickly"]
+			description: ["The ''Smelter'' is a multi-block structure that has a huge capacity and will help you do metal casting faster"]
 			dependencies: ["5AE978CADC8BC927"]
 			hide: true
 			id: "573BC5536BFA4E1E"
@@ -127,11 +127,11 @@
 			]
 		}
 		{
-			title: "cast ingot"
+			title: "Cast Ingot"
 			icon: "tconstruct:ingot_cast"
 			x: 5.5d
 			y: -2.5d
-			description: ["ingots , gears, rods  - you could want"]
+			description: ["All the Ingots , Gears, Rods you could want"]
 			dependencies: ["573BC5536BFA4E1E"]
 			hide: true
 			id: "626C843C159B45D1"
@@ -155,11 +155,11 @@
 			]
 		}
 		{
-			title: "advanced anvil"
+			title: "Advanced Anvil"
 			icon: "tconstruct:tinkers_anvil"
 			x: 6.0d
 			y: 0.0d
-			description: ["anvil for new parts"]
+			description: ["Anvil for new parts"]
 			dependencies: ["573BC5536BFA4E1E"]
 			hide: true
 			id: "6C6398963C23F988"
@@ -171,11 +171,11 @@
 			}]
 		}
 		{
-			title: "cast for tools"
+			title: "Cast for tools"
 			icon: "tconstruct:pick_head_cast"
 			x: 5.5d
 			y: 3.0d
-			description: ["new tools ?"]
+			description: ["New tools ?"]
 			dependencies: ["573BC5536BFA4E1E"]
 			hide: true
 			id: "31522357EABCF399"
@@ -235,7 +235,7 @@
 			}
 			x: 8.0d
 			y: 0.0d
-			description: ["do whatever you want Tinker Construct has unlimited possibilities for crafting tools and useful items"]
+			description: ["Do whatever you want. Tinker's Construct has unlimited possibilities for crafting tools and useful items"]
 			dependencies: ["6C6398963C23F988"]
 			hide: true
 			id: "0E695620875E62F5"

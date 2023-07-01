@@ -20,12 +20,12 @@
 			x: -2.0d
 			y: 0.5d
 			shape: "gear"
-			subtitle: "right click ''Akastic Tome'' and select book - other book - left click  cancel"
+			subtitle: "''RIGHT CLICK'' with ''Akashic Tome'' in hand and choose the book you need - LEFT CLICK to cancel and pick a new one"
 			description: [
-				"start an adventure in another world - maybe you will find something that will be useful or maybe it will just be a great adventure"
+				"Start an adventure in another world - Maybe you will find something that will be useful or maybe it will just be a great adventure"
 				""
-				"you will have to look for special materials in the game in different eras and make a magic item out of it that will open a portal you will definitely come across it but after completing the previous chapters"
-				"stone, mechanical, steel, nuclear and space"
+				"You will have to look for special materials in different areas and make a magic item out of it that will open a portal. You will definitely come across it but only after completing the following chapters"
+				"Stone, Mechanical, Steel, Nuclear and space"
 			]
 			dependencies: ["44024F7CD1794DA5"]
 			hide: true
@@ -44,11 +44,11 @@
 			}]
 		}
 		{
-			title: "portal"
+			title: "Portal"
 			icon: "twilightforest:twilight_portal_miniature_structure"
 			x: 1.0d
 			y: 0.5d
-			description: ["build a portal to another dimension - pour water into a 3x3 square and fill it with flowers - throw in a Magic Crystal which you can craft from materials found on other planets"]
+			description: ["Build a portal to another dimension - Pour water into a 3x3 square and fill it with flowers - Throw in a Magic Crystal which you can craft from materials found on other planets"]
 			dependencies: ["2D33A89CEBBCB943"]
 			hide: true
 			id: "6B4FEEB611B1C806"
