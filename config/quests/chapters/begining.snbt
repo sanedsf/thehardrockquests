@@ -1,0 +1,207 @@
+{
+	id: "2BB45B1C5C5AF92E"
+	group: ""
+	order_index: 0
+	filename: "begining"
+	title: "Important!!!"
+	icon: "minecraft:redstone_torch"
+	default_quest_shape: "pentagon"
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: -1.5d
+			y: -7.5d
+			width: 0.5d
+			height: 0.5d
+			rotation: 0.0d
+			image: "kubejs:textures/item/img_wiki.png"
+			hover: ["wiki TFC"]
+			click: "https://terrafirmacraft.github.io/Field-Guide"
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.5d
+			y: -5.5d
+			width: 0.5d
+			height: 0.5d
+			rotation: 0.0d
+			image: "kubejs:textures/item/img_wiki.png"
+			hover: ["wiki TFC"]
+			click: "https://terrafirmacraft.github.io/Field-Guide/en_us/mechanics/decay.html"
+			dev: false
+			corner: false
+			dependency: "43A3F6984C4136E3"
+		}
+	]
+	quests: [
+		{
+			icon: {
+				id: "untamedwilds:food_bear_raw"
+				Count: 1b
+				ForgeCaps: {
+					"tfc:food": {
+						traits: [ ]
+						creationDate: -9223372036854775808L
+					}
+				}
+			}
+			x: 0.0d
+			y: -5.0d
+			subtitle: "You need water and food"
+			description: [
+				"Get purified water and food to survive. Drinking water from a river or lake can make you sick. Food is perishable, store it in vessels, use salt or create a special cellar underground - Which will protect your supplies for a long time"
+				"Build a cellar and a green house to provide you with food for winter"
+			]
+			dependencies: ["0BD254AA96F54986"]
+			hide: true
+			id: "7264E2D6E7D16093"
+			tasks: [{
+				id: "6B45163DBB3E9933"
+				type: "checkmark"
+				title: "Survive"
+			}]
+		}
+		{
+			icon: "weather2:weather_item"
+			x: 1.0d
+			y: -3.5d
+			subtitle: "Weather will not be your ally"
+			description: ["Summer is hot and winter is cold. Create the right clothes for every season. Push ''SHIFT'' and look at the ever-changing temperatures. Water or silk cloth will cool you down in the summer. The fireplace, wool cloth and other heat sources will warm you up in the winter. In the summer, forage for supplies because in the winter nothing will grow, you will need to eat! - WATCH OUT for tornadoes! - They happen and can take you and your farm animals"]
+			dependencies: ["7264E2D6E7D16093"]
+			hide: true
+			id: "104CEC537FB146C1"
+			tasks: [{
+				id: "0B086A475E05E690"
+				type: "checkmark"
+				title: "Weather"
+			}]
+		}
+		{
+			icon: "paraglider:heart_container"
+			x: -4.0d
+			y: -5.0d
+			subtitle: "More health and stamina"
+			description: [
+				"To increase your health and stamina, eat a variety of foods and cook more complex meals. After eating 5, 10, 30, 60, 90, 120 new dishes, you will get one extra stamina heart. "
+				"{image:pneumaticcraft:textures/item/bandage.png width:15 height:15 align:1}"
+				"Make sure you have the right plasters and bandages before you go on a trip or explore. The slightest injury or accident can be fatal - You will need them"
+				""
+				"See the new health system - ''Control+h''"
+				"First aid plaster and First aid bandage helps your injured body parts"
+				"{image:firstaid:textures/items/bandage.png width:15 height:15 align:1}"
+			]
+			dependencies: ["0BD254AA96F54986"]
+			hide: true
+			id: "488C0939F7E70BB3"
+			tasks: [{
+				id: "45C73C42AF9AEA97"
+				type: "checkmark"
+				title: "Health and Stamina"
+			}]
+			rewards: [
+				{
+					id: "03C653D3FD228232"
+					type: "item"
+					item: "pneumaticcraft:bandage"
+					count: 10
+				}
+				{
+					id: "40B5646531E90FD1"
+					type: "item"
+					item: "firstaid:plaster"
+					count: 10
+				}
+				{
+					id: "32FB5AA6C0C7BBF3"
+					type: "item"
+					item: "firstaid:bandage"
+				}
+			]
+		}
+		{
+			icon: {
+				id: "patchouli:guide_book"
+				Count: 1b
+				tag: {
+					"patchouli:book": "tfc:field_guide"
+				}
+			}
+			x: -2.0d
+			y: -7.0d
+			subtitle: "You must learn"
+			description: [
+				"The entire world around you is based on TerraFirmaCraft. ''Akashic Tome'' in your inventory has every book. ''RIGHT CLICK'' with the book in hand and choose the book you need - LEFT CLICK to cancel and pick a new one.  Use the TFC guide and learn how to survive.  - More info on webpage - terrafirmacraft.github.io/Field-Guide"
+				"{image:kubejs:textures/item/img_wiki.png width:30 height:30 align:1}"
+				"Some of the quests have an icon that leads to special mod wiki pages"
+			]
+			hide: true
+			id: "0BD254AA96F54986"
+			tasks: [{
+				id: "0415ECF47B9202C7"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "tfc:field_guide"
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: -0.5d
+			shape: "gear"
+			description: ["It all depends on you. Take care of yourself - Good luck. You can use the hotkey for ''FTB Quest Book'' then you don't need to have it in your inventory all the time. (options-controls-key binds)"]
+			dependencies: [
+				"7264E2D6E7D16093"
+				"104CEC537FB146C1"
+				"488C0939F7E70BB3"
+				"492F4B1770DC5A01"
+				"5FEBEF5D97A1A253"
+			]
+			hide: true
+			size: 2.0d
+			progression_mode: "linear"
+			hide_details_until_startable: true
+			id: "43A3F6984C4136E3"
+			tasks: [{
+				id: "4EC59507B0272580"
+				type: "checkmark"
+				title: "Do it!!!"
+			}]
+		}
+		{
+			icon: "untamedwilds:hide_bigcat_tiger"
+			x: -5.0d
+			y: -3.5d
+			subtitle: "Fauna is a threat"
+			description: ["You can tame many animals, such as cows, ducks, dogs, horses ... But there are also predators in this world for whom you; are the food !!! It for the best if you watch your step and avoid danger - Small spiders, snakes or piranhas does not mean they are nice, not to mention bears, hippos, panthers and other big predators that should be avoided at all cost"]
+			dependencies: ["488C0939F7E70BB3"]
+			hide: true
+			id: "492F4B1770DC5A01"
+			tasks: [{
+				id: "27CB0833D3E63A20"
+				type: "checkmark"
+				title: "Fauna"
+			}]
+		}
+		{
+			title: "Shader Packs"
+			icon: "tfc:plant/silver_spurflower"
+			x: -2.0d
+			y: -4.5d
+			description: ["In the OPTION - VIDEO SETTINGS you will find the shaders folder - If you have a strong GPU card, enable these options - See what I have prepared for you - Two shaders pack that make our world beautiful"]
+			dependencies: ["0BD254AA96F54986"]
+			hide: true
+			id: "5FEBEF5D97A1A253"
+			tasks: [{
+				id: "1414540ED8A34601"
+				type: "checkmark"
+				title: "Survive"
+			}]
+		}
+	]
+	quest_links: [ ]
+}
